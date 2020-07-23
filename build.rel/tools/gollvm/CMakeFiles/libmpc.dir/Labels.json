@@ -1,0 +1,91 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/media/ubuntu/RESERVE0/workspace/build.rel/tools/gollvm/CMakeFiles/libmpc"
+		},
+		{
+			"file" : "/media/ubuntu/RESERVE0/workspace/build.rel/tools/gollvm/CMakeFiles/libmpc.rule"
+		},
+		{
+			"file" : "/media/ubuntu/RESERVE0/workspace/build.rel/tools/gollvm/CMakeFiles/libmpc-complete.rule"
+		},
+		{
+			"file" : "/media/ubuntu/RESERVE0/workspace/build.rel/tools/gollvm/external/install/src/libmpc-stamp/libmpc-install.rule"
+		},
+		{
+			"file" : "/media/ubuntu/RESERVE0/workspace/build.rel/tools/gollvm/external/install/src/libmpc-stamp/libmpc-mkdir.rule"
+		},
+		{
+			"file" : "/media/ubuntu/RESERVE0/workspace/build.rel/tools/gollvm/external/install/src/libmpc-stamp/libmpc-download.rule"
+		},
+		{
+			"file" : "/media/ubuntu/RESERVE0/workspace/build.rel/tools/gollvm/external/install/src/libmpc-stamp/libmpc-update.rule"
+		},
+		{
+			"file" : "/media/ubuntu/RESERVE0/workspace/build.rel/tools/gollvm/external/install/src/libmpc-stamp/libmpc-patch.rule"
+		},
+		{
+			"file" : "/media/ubuntu/RESERVE0/workspace/build.rel/tools/gollvm/external/install/src/libmpc-stamp/libmpc-configure.rule"
+		},
+		{
+			"file" : "/media/ubuntu/RESERVE0/workspace/build.rel/tools/gollvm/external/install/src/libmpc-stamp/libmpc-build.rule"
+		},
+		{
+			"file" : "/media/ubuntu/RESERVE0/workspace/build.rel/tools/gollvm/CMakeFiles/libgmp-complete.rule"
+		},
+		{
+			"file" : "/media/ubuntu/RESERVE0/workspace/build.rel/tools/gollvm/CMakeFiles/libmpfr-complete.rule"
+		},
+		{
+			"file" : "/media/ubuntu/RESERVE0/workspace/build.rel/tools/gollvm/libgmp-prefix/src/libgmp-stamp/libgmp-install.rule"
+		},
+		{
+			"file" : "/media/ubuntu/RESERVE0/workspace/build.rel/tools/gollvm/libgmp-prefix/src/libgmp-stamp/libgmp-mkdir.rule"
+		},
+		{
+			"file" : "/media/ubuntu/RESERVE0/workspace/build.rel/tools/gollvm/libgmp-prefix/src/libgmp-stamp/libgmp-download.rule"
+		},
+		{
+			"file" : "/media/ubuntu/RESERVE0/workspace/build.rel/tools/gollvm/libgmp-prefix/src/libgmp-stamp/libgmp-update.rule"
+		},
+		{
+			"file" : "/media/ubuntu/RESERVE0/workspace/build.rel/tools/gollvm/libgmp-prefix/src/libgmp-stamp/libgmp-patch.rule"
+		},
+		{
+			"file" : "/media/ubuntu/RESERVE0/workspace/build.rel/tools/gollvm/libgmp-prefix/src/libgmp-stamp/libgmp-configure.rule"
+		},
+		{
+			"file" : "/media/ubuntu/RESERVE0/workspace/build.rel/tools/gollvm/libgmp-prefix/src/libgmp-stamp/libgmp-build.rule"
+		},
+		{
+			"file" : "/media/ubuntu/RESERVE0/workspace/build.rel/tools/gollvm/libmpfr-prefix/src/libmpfr-stamp/libmpfr-install.rule"
+		},
+		{
+			"file" : "/media/ubuntu/RESERVE0/workspace/build.rel/tools/gollvm/libmpfr-prefix/src/libmpfr-stamp/libmpfr-mkdir.rule"
+		},
+		{
+			"file" : "/media/ubuntu/RESERVE0/workspace/build.rel/tools/gollvm/libmpfr-prefix/src/libmpfr-stamp/libmpfr-download.rule"
+		},
+		{
+			"file" : "/media/ubuntu/RESERVE0/workspace/build.rel/tools/gollvm/libmpfr-prefix/src/libmpfr-stamp/libmpfr-update.rule"
+		},
+		{
+			"file" : "/media/ubuntu/RESERVE0/workspace/build.rel/tools/gollvm/libmpfr-prefix/src/libmpfr-stamp/libmpfr-patch.rule"
+		},
+		{
+			"file" : "/media/ubuntu/RESERVE0/workspace/build.rel/tools/gollvm/libmpfr-prefix/src/libmpfr-stamp/libmpfr-configure.rule"
+		},
+		{
+			"file" : "/media/ubuntu/RESERVE0/workspace/build.rel/tools/gollvm/libmpfr-prefix/src/libmpfr-stamp/libmpfr-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"libmpc"
+		],
+		"name" : "libmpc"
+	}
+}

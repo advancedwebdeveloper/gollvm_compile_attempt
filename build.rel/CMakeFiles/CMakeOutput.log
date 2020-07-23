@@ -1,0 +1,3270 @@
+The system is: Linux - 5.4.0-26-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/3.16.3/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/3.16.3/CompilerIdCXX/a.out"
+
+Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+cc (Ubuntu 9.3.0-10ubuntu2) 9.3.0
+Copyright (C) 2019 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_40871 && [1/2] Building C object CMakeFiles/cmTC_40871.dir/testCCompiler.c.o
+[2/2] Linking C executable cmTC_40871
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_799ea && [1/2] Building C object CMakeFiles/cmTC_799ea.dir/CMakeCCompilerABI.c.o
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+OFFLOAD_TARGET_NAMES=nvptx-none:hsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.3.0-10ubuntu2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 9.3.0 (Ubuntu 9.3.0-10ubuntu2) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_799ea.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/9/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_799ea.dir/CMakeCCompilerABI.c.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cctizDjK.s
+GNU C17 (Ubuntu 9.3.0-10ubuntu2) version 9.3.0 (x86_64-linux-gnu)
+	compiled by GNU C version 9.3.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/x86_64-linux-gnu/9/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C17 (Ubuntu 9.3.0-10ubuntu2) version 9.3.0 (x86_64-linux-gnu)
+	compiled by GNU C version 9.3.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 18dc4c39b54390aa2b5013fb4339d43f
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_799ea.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o CMakeFiles/cmTC_799ea.dir/CMakeCCompilerABI.c.o /tmp/cctizDjK.s
+GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_799ea.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+[2/2] Linking C executable cmTC_799ea
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none:hsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.3.0-10ubuntu2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 9.3.0 (Ubuntu 9.3.0-10ubuntu2) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_799ea' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccowyK11.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_799ea /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_799ea.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_799ea' '-mtune=generic' '-march=x86-64'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/lib/gcc/x86_64-linux-gnu/9/include]
+    add: [/usr/local/include]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/9/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/9/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/lib/gcc/x86_64-linux-gnu/9/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/local/bin/ninja cmTC_799ea && [1/2] Building C object CMakeFiles/cmTC_799ea.dir/CMakeCCompilerABI.c.o]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.3.0-10ubuntu2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.3.0 (Ubuntu 9.3.0-10ubuntu2) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_799ea.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_799ea.dir/CMakeCCompilerABI.c.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cctizDjK.s]
+  ignore line: [GNU C17 (Ubuntu 9.3.0-10ubuntu2) version 9.3.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.3.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (Ubuntu 9.3.0-10ubuntu2) version 9.3.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.3.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 18dc4c39b54390aa2b5013fb4339d43f]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_799ea.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_799ea.dir/CMakeCCompilerABI.c.o /tmp/cctizDjK.s]
+  ignore line: [GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_799ea.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [[2/2] Linking C executable cmTC_799ea]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.3.0-10ubuntu2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.3.0 (Ubuntu 9.3.0-10ubuntu2) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_799ea' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccowyK11.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_799ea /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_799ea.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccowyK11.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_799ea] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..]
+    arg [CMakeFiles/cmTC_799ea.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9] ==> [/usr/lib/gcc/x86_64-linux-gnu/9]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> [/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/9;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+The system is: Linux - 5.4.0-26-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/3.16.3/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/3.16.3/CompilerIdCXX/a.out"
+
+Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+cc (Ubuntu 9.3.0-10ubuntu2) 9.3.0
+Copyright (C) 2019 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_fcdac && [1/2] Building C object CMakeFiles/cmTC_fcdac.dir/testCCompiler.c.o
+[2/2] Linking C executable cmTC_fcdac
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_e9a77 && [1/2] Building C object CMakeFiles/cmTC_e9a77.dir/CMakeCCompilerABI.c.o
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+OFFLOAD_TARGET_NAMES=nvptx-none:hsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.3.0-10ubuntu2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 9.3.0 (Ubuntu 9.3.0-10ubuntu2) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e9a77.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/9/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_e9a77.dir/CMakeCCompilerABI.c.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccxFlw77.s
+GNU C17 (Ubuntu 9.3.0-10ubuntu2) version 9.3.0 (x86_64-linux-gnu)
+	compiled by GNU C version 9.3.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/x86_64-linux-gnu/9/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C17 (Ubuntu 9.3.0-10ubuntu2) version 9.3.0 (x86_64-linux-gnu)
+	compiled by GNU C version 9.3.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 18dc4c39b54390aa2b5013fb4339d43f
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e9a77.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o CMakeFiles/cmTC_e9a77.dir/CMakeCCompilerABI.c.o /tmp/ccxFlw77.s
+GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e9a77.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+[2/2] Linking C executable cmTC_e9a77
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none:hsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.3.0-10ubuntu2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 9.3.0 (Ubuntu 9.3.0-10ubuntu2) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e9a77' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccgcT4Zz.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_e9a77 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_e9a77.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e9a77' '-mtune=generic' '-march=x86-64'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/lib/gcc/x86_64-linux-gnu/9/include]
+    add: [/usr/local/include]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/9/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/9/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/lib/gcc/x86_64-linux-gnu/9/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/local/bin/ninja cmTC_e9a77 && [1/2] Building C object CMakeFiles/cmTC_e9a77.dir/CMakeCCompilerABI.c.o]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.3.0-10ubuntu2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.3.0 (Ubuntu 9.3.0-10ubuntu2) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e9a77.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_e9a77.dir/CMakeCCompilerABI.c.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccxFlw77.s]
+  ignore line: [GNU C17 (Ubuntu 9.3.0-10ubuntu2) version 9.3.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.3.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (Ubuntu 9.3.0-10ubuntu2) version 9.3.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.3.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 18dc4c39b54390aa2b5013fb4339d43f]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e9a77.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_e9a77.dir/CMakeCCompilerABI.c.o /tmp/ccxFlw77.s]
+  ignore line: [GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e9a77.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [[2/2] Linking C executable cmTC_e9a77]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.3.0-10ubuntu2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.3.0 (Ubuntu 9.3.0-10ubuntu2) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e9a77' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccgcT4Zz.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_e9a77 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_e9a77.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccgcT4Zz.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_e9a77] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..]
+    arg [CMakeFiles/cmTC_e9a77.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9] ==> [/usr/lib/gcc/x86_64-linux-gnu/9]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> [/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/9;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_cd5ef && [1/2] Building CXX object CMakeFiles/cmTC_cd5ef.dir/testCXXCompiler.cxx.o
+[2/2] Linking CXX executable cmTC_cd5ef
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_13e14 && [1/2] Building CXX object CMakeFiles/cmTC_13e14.dir/CMakeCXXCompilerABI.cpp.o
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+OFFLOAD_TARGET_NAMES=nvptx-none:hsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.3.0-10ubuntu2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 9.3.0 (Ubuntu 9.3.0-10ubuntu2) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_13e14.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_13e14.dir/CMakeCXXCompilerABI.cpp.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccFaUfeC.s
+GNU C++14 (Ubuntu 9.3.0-10ubuntu2) version 9.3.0 (x86_64-linux-gnu)
+	compiled by GNU C version 9.3.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/9"
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/include/c++/9
+ /usr/include/x86_64-linux-gnu/c++/9
+ /usr/include/c++/9/backward
+ /usr/lib/gcc/x86_64-linux-gnu/9/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C++14 (Ubuntu 9.3.0-10ubuntu2) version 9.3.0 (x86_64-linux-gnu)
+	compiled by GNU C version 9.3.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: a3d04a02fbd98a786d710618ca593f02
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_13e14.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o CMakeFiles/cmTC_13e14.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccFaUfeC.s
+GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_13e14.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+[2/2] Linking CXX executable cmTC_13e14
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none:hsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.3.0-10ubuntu2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 9.3.0 (Ubuntu 9.3.0-10ubuntu2) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_13e14' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/cc96wh4W.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_13e14 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_13e14.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_13e14' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/include/c++/9]
+    add: [/usr/include/x86_64-linux-gnu/c++/9]
+    add: [/usr/include/c++/9/backward]
+    add: [/usr/lib/gcc/x86_64-linux-gnu/9/include]
+    add: [/usr/local/include]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/include/c++/9] ==> [/usr/include/c++/9]
+  collapse include dir [/usr/include/x86_64-linux-gnu/c++/9] ==> [/usr/include/x86_64-linux-gnu/c++/9]
+  collapse include dir [/usr/include/c++/9/backward] ==> [/usr/include/c++/9/backward]
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/9/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/9/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/include/c++/9;/usr/include/x86_64-linux-gnu/c++/9;/usr/include/c++/9/backward;/usr/lib/gcc/x86_64-linux-gnu/9/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/local/bin/ninja cmTC_13e14 && [1/2] Building CXX object CMakeFiles/cmTC_13e14.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.3.0-10ubuntu2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.3.0 (Ubuntu 9.3.0-10ubuntu2) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_13e14.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_13e14.dir/CMakeCXXCompilerABI.cpp.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccFaUfeC.s]
+  ignore line: [GNU C++14 (Ubuntu 9.3.0-10ubuntu2) version 9.3.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.3.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/9"]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/include/c++/9]
+  ignore line: [ /usr/include/x86_64-linux-gnu/c++/9]
+  ignore line: [ /usr/include/c++/9/backward]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++14 (Ubuntu 9.3.0-10ubuntu2) version 9.3.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.3.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: a3d04a02fbd98a786d710618ca593f02]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_13e14.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_13e14.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccFaUfeC.s]
+  ignore line: [GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_13e14.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [[2/2] Linking CXX executable cmTC_13e14]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.3.0-10ubuntu2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.3.0 (Ubuntu 9.3.0-10ubuntu2) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_13e14' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/cc96wh4W.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_13e14 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_13e14.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc96wh4W.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_13e14] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..]
+    arg [CMakeFiles/cmTC_13e14.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9] ==> [/usr/lib/gcc/x86_64-linux-gnu/9]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/9;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Determining if the include file dlfcn.h exists passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_5608e && [1/2] Building C object CMakeFiles/cmTC_5608e.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_5608e
+
+
+
+Determining if the include file errno.h exists passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_7e810 && [1/2] Building C object CMakeFiles/cmTC_7e810.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_7e810
+
+
+
+Determining if the include file fcntl.h exists passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_4f6d7 && [1/2] Building C object CMakeFiles/cmTC_4f6d7.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_4f6d7
+
+
+
+Determining if the include file link.h exists passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_5e3d9 && [1/2] Building C object CMakeFiles/cmTC_5e3d9.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_5e3d9
+
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_02241 && [1/2] Building C object CMakeFiles/cmTC_02241.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_02241
+
+
+
+Determining if the include file signal.h exists passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_b9ada && [1/2] Building C object CMakeFiles/cmTC_b9ada.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_b9ada
+
+
+
+Determining if the include file sys/ioctl.h exists passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_9372d && [1/2] Building C object CMakeFiles/cmTC_9372d.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_9372d
+
+
+
+Determining if the include file sys/mman.h exists passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_a72e3 && [1/2] Building C object CMakeFiles/cmTC_a72e3.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_a72e3
+
+
+
+Determining if the include file sys/param.h exists passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_19f39 && [1/2] Building C object CMakeFiles/cmTC_19f39.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_19f39
+
+
+
+Determining if the include file sys/resource.h exists passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_bf517 && [1/2] Building C object CMakeFiles/cmTC_bf517.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_bf517
+
+
+
+Determining if the include file sys/stat.h exists passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_b568c && [1/2] Building C object CMakeFiles/cmTC_b568c.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_b568c
+
+
+
+Determining if the include file sys/time.h exists passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_6be33 && [1/2] Building C object CMakeFiles/cmTC_6be33.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_6be33
+
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_5aa23 && [1/2] Building C object CMakeFiles/cmTC_5aa23.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_5aa23
+
+
+
+Determining if the include file termios.h exists passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_e9473 && [1/2] Building C object CMakeFiles/cmTC_e9473.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_e9473
+
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_e81ea && [1/2] Building C object CMakeFiles/cmTC_e81ea.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_e81ea
+
+
+
+Determining if the include file zlib.h exists passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_0901e && [1/2] Building C object CMakeFiles/cmTC_0901e.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_0901e
+
+
+
+Determining if the include file fenv.h exists passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_39315 && [1/2] Building C object CMakeFiles/cmTC_39315.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_39315
+
+
+
+Determining if the FE_ALL_EXCEPT exist passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_2e3bd && [1/2] Building C object CMakeFiles/cmTC_2e3bd.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_2e3bd
+
+
+File /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <fenv.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef FE_ALL_EXCEPT
+  return ((int*)(&FE_ALL_EXCEPT))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the FE_INEXACT exist passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_5bd52 && [1/2] Building C object CMakeFiles/cmTC_5bd52.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_5bd52
+
+
+File /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <fenv.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef FE_INEXACT
+  return ((int*)(&FE_INEXACT))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the include file linux/magic.h exists passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_2c032 && [1/2] Building C object CMakeFiles/cmTC_2c032.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_2c032
+
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_5582e && [1/2] Building C object CMakeFiles/cmTC_5582e.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_5582e
+
+
+
+Determining if the function pthread_getspecific exists in the pthread passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_579c8 && [1/2] Building C object CMakeFiles/cmTC_579c8.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_579c8
+
+
+
+Determining if the function pthread_rwlock_init exists in the pthread passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_7aab7 && [1/2] Building C object CMakeFiles/cmTC_7aab7.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_7aab7
+
+
+
+Determining if the function pthread_mutex_lock exists in the pthread passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_9bce9 && [1/2] Building C object CMakeFiles/cmTC_9bce9.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_9bce9
+
+
+
+Determining if the function dlopen exists in the dl passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_0cacc && [1/2] Building C object CMakeFiles/cmTC_0cacc.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_0cacc
+
+
+
+Determining if the function clock_gettime exists in the rt passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_680ea && [1/2] Building C object CMakeFiles/cmTC_680ea.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_680ea
+
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_b720a && [1/2] Building C object CMakeFiles/cmTC_b720a.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_b720a
+
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_3db4e && [1/2] Building C object CMakeFiles/cmTC_3db4e.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_3db4e
+
+
+
+Determining if the function compress2 exists in the z passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_9eca5 && [1/2] Building C object CMakeFiles/cmTC_9eca5.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_9eca5
+
+
+
+Determining if the function setupterm exists in the tinfo passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_ff21e && [1/2] Building C object CMakeFiles/cmTC_ff21e.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_ff21e
+
+
+
+Determining if the backtrace exist passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_9bbe8 && [1/2] Building C object CMakeFiles/cmTC_9bbe8.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_9bbe8
+
+
+File /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <execinfo.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef backtrace
+  return ((int*)(&backtrace))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the _Unwind_Backtrace exist passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_ea37a && [1/2] Building C object CMakeFiles/cmTC_ea37a.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_ea37a
+
+
+File /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unwind.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _Unwind_Backtrace
+  return ((int*)(&_Unwind_Backtrace))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the getpagesize exist passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_73752 && [1/2] Building C object CMakeFiles/cmTC_73752.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_73752
+
+
+File /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getpagesize
+  return ((int*)(&getpagesize))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the sysconf exist passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_7d2c8 && [1/2] Building C object CMakeFiles/cmTC_7d2c8.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_7d2c8
+
+
+File /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sysconf
+  return ((int*)(&sysconf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the getrusage exist passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_fcce3 && [1/2] Building C object CMakeFiles/cmTC_fcce3.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_fcce3
+
+
+File /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/resource.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getrusage
+  return ((int*)(&getrusage))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the setrlimit exist passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_f383f && [1/2] Building C object CMakeFiles/cmTC_f383f.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_f383f
+
+
+File /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/resource.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef setrlimit
+  return ((int*)(&setrlimit))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the isatty exist passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_ae0de && [1/2] Building C object CMakeFiles/cmTC_ae0de.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_ae0de
+
+
+File /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef isatty
+  return ((int*)(&isatty))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the futimens exist passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_7e237 && [1/2] Building C object CMakeFiles/cmTC_7e237.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_7e237
+
+
+File /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/stat.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef futimens
+  return ((int*)(&futimens))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the futimes exist passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_e455b && [1/2] Building C object CMakeFiles/cmTC_e455b.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_e455b
+
+
+File /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/time.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef futimes
+  return ((int*)(&futimes))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the posix_fallocate exist passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_adf2f && [1/2] Building C object CMakeFiles/cmTC_adf2f.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_adf2f
+
+
+File /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <fcntl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef posix_fallocate
+  return ((int*)(&posix_fallocate))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the sigaltstack exist passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_4adc3 && [1/2] Building C object CMakeFiles/cmTC_4adc3.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_4adc3
+
+
+File /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <signal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sigaltstack
+  return ((int*)(&sigaltstack))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the lseek64 exist passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_267c1 && [1/2] Building C object CMakeFiles/cmTC_267c1.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_267c1
+
+
+File /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/types.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef lseek64
+  return ((int*)(&lseek64))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the mallinfo exist passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_56792 && [1/2] Building C object CMakeFiles/cmTC_56792.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_56792
+
+
+File /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <malloc.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef mallinfo
+  return ((int*)(&mallinfo))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the getrlimit exist passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_16fcd && [1/2] Building C object CMakeFiles/cmTC_16fcd.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_16fcd
+
+
+File /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/types.h>
+#include <sys/time.h>
+#include <sys/resource.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getrlimit
+  return ((int*)(&getrlimit))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the posix_spawn exist passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_7f8d1 && [1/2] Building C object CMakeFiles/cmTC_7f8d1.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_7f8d1
+
+
+File /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <spawn.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef posix_spawn
+  return ((int*)(&posix_spawn))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the pread exist passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_590c7 && [1/2] Building C object CMakeFiles/cmTC_590c7.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_590c7
+
+
+File /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pread
+  return ((int*)(&pread))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the sbrk exist passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_c99d8 && [1/2] Building C object CMakeFiles/cmTC_c99d8.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_c99d8
+
+
+File /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sbrk
+  return ((int*)(&sbrk))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strerror exist passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_47c07 && [1/2] Building C object CMakeFiles/cmTC_47c07.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_47c07
+
+
+File /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strerror
+  return ((int*)(&strerror))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strerror_r exist passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_91945 && [1/2] Building C object CMakeFiles/cmTC_91945.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_91945
+
+
+File /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strerror_r
+  return ((int*)(&strerror_r))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the setenv exist passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_3ed97 && [1/2] Building C object CMakeFiles/cmTC_3ed97.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_3ed97
+
+
+File /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef setenv
+  return ((int*)(&setenv))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the dlopen exist passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_64411 && [1/2] Building C object CMakeFiles/cmTC_64411.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_64411
+
+
+File /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <dlfcn.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef dlopen
+  return ((int*)(&dlopen))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C SOURCE FILE Test HAVE_STRUCT_STAT_ST_MTIM_TV_NSEC succeeded with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_341ad && [1/2] Building C object CMakeFiles/cmTC_341ad.dir/src.c.o
+[2/2] Linking C executable cmTC_341ad
+
+
+Source file was:
+
+#include <sys/types.h>
+#include <sys/stat.h>
+
+int main()
+{
+  (void)sizeof(((struct stat *)0)->st_mtim.tv_nsec);
+  return 0;
+}
+
+Determining if the __GLIBC__ exist passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_db416 && [1/2] Building C object CMakeFiles/cmTC_db416.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_db416
+
+
+File /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef __GLIBC__
+  return ((int*)(&__GLIBC__))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the pthread_getname_np exist passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_4c3ea && [1/2] Building C object CMakeFiles/cmTC_4c3ea.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_4c3ea
+
+
+File /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_getname_np
+  return ((int*)(&pthread_getname_np))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the pthread_setname_np exist passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_6a08c && [1/2] Building C object CMakeFiles/cmTC_6a08c.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_6a08c
+
+
+File /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_setname_np
+  return ((int*)(&pthread_setname_np))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C++ SOURCE FILE Test HAVE_STD_IS_TRIVIALLY_COPYABLE succeeded with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_ca568 && [1/2] Building CXX object CMakeFiles/cmTC_ca568.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_ca568
+
+
+Source file was:
+
+#include <type_traits>
+struct T { int val; };
+static_assert(std::is_trivially_copyable<T>::value, "ok");
+int main() { return 0;}
+
+Performing C++ SOURCE FILE Test HAVE_CXX_ATOMICS_WITHOUT_LIB succeeded with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_948b4 && [1/2] Building CXX object CMakeFiles/cmTC_948b4.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_948b4
+
+
+Source file was:
+
+#include <atomic>
+std::atomic<int> x;
+std::atomic<short> y;
+std::atomic<char> z;
+int main() {
+  ++z;
+  ++y;
+  return ++x;
+}
+
+Performing C++ SOURCE FILE Test HAVE_CXX_ATOMICS64_WITHOUT_LIB succeeded with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_7d26a && [1/2] Building CXX object CMakeFiles/cmTC_7d26a.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_7d26a
+
+
+Source file was:
+
+#include <atomic>
+#include <cstdint>
+std::atomic<uint64_t> x (0);
+int main() {
+  uint64_t i = x.load(std::memory_order_relaxed);
+  return 0;
+}
+
+Performing C++ SOURCE FILE Test LLVM_HAS_ATOMICS succeeded with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_0fd44 && [1/2] Building CXX object CMakeFiles/cmTC_0fd44.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_0fd44
+
+
+Source file was:
+
+#ifdef _MSC_VER
+#include <windows.h>
+#endif
+int main() {
+#ifdef _MSC_VER
+        volatile LONG val = 1;
+        MemoryBarrier();
+        InterlockedCompareExchange(&val, 0, 1);
+        InterlockedIncrement(&val);
+        InterlockedDecrement(&val);
+#else
+        volatile unsigned long val = 1;
+        __sync_synchronize();
+        __sync_val_compare_and_swap(&val, 1, 0);
+        __sync_add_and_fetch(&val, 1);
+        __sync_sub_and_fetch(&val, 1);
+#endif
+        return 0;
+      }
+
+Performing C++ SOURCE FILE Test SUPPORTS_VARIADIC_MACROS_FLAG succeeded with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_c7ac8 && [1/2] Building CXX object CMakeFiles/cmTC_c7ac8.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_c7ac8
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAS_MAYBE_UNINITIALIZED succeeded with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_58bb5 && [1/2] Building CXX object CMakeFiles/cmTC_58bb5.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_58bb5
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_CUSTOM_LINKER succeeded with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_2cdcf && [1/2] Building CXX object CMakeFiles/cmTC_2cdcf.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_2cdcf
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_SUPPORTS_FPIC succeeded with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_77a3d && [1/2] Building C object CMakeFiles/cmTC_77a3d.dir/src.c.o
+[2/2] Linking C executable cmTC_77a3d
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_FPIC succeeded with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_50d74 && [1/2] Building CXX object CMakeFiles/cmTC_50d74.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_50d74
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test SUPPORTS_FVISIBILITY_INLINES_HIDDEN_FLAG succeeded with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_7b1fe && [1/2] Building CXX object CMakeFiles/cmTC_7b1fe.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_7b1fe
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_SUPPORTS_WERROR_DATE_TIME succeeded with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_8d6b6 && [1/2] Building C object CMakeFiles/cmTC_8d6b6.dir/src.c.o
+[2/2] Linking C executable cmTC_8d6b6
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_WERROR_DATE_TIME succeeded with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_a3237 && [1/2] Building CXX object CMakeFiles/cmTC_a3237.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_a3237
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_MISSING_FIELD_INITIALIZERS_FLAG succeeded with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_57b6d && [1/2] Building CXX object CMakeFiles/cmTC_57b6d.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_57b6d
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_SUPPORTS_IMPLICIT_FALLTHROUGH_FLAG succeeded with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_96703 && [1/2] Building C object CMakeFiles/cmTC_96703.dir/src.c.o
+[2/2] Linking C executable cmTC_96703
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_IMPLICIT_FALLTHROUGH_FLAG succeeded with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_364f3 && [1/2] Building CXX object CMakeFiles/cmTC_364f3.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_364f3
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_CLASS_MEMACCESS_FLAG succeeded with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_efc33 && [1/2] Building CXX object CMakeFiles/cmTC_efc33.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_efc33
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_REDUNDANT_MOVE_FLAG succeeded with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_b3b2d && [1/2] Building CXX object CMakeFiles/cmTC_b3b2d.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_b3b2d
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_NOEXCEPT_TYPE_FLAG succeeded with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_4cb13 && [1/2] Building CXX object CMakeFiles/cmTC_4cb13.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_4cb13
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_DELETE_NON_VIRTUAL_DTOR_FLAG succeeded with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_dedb9 && [1/2] Building CXX object CMakeFiles/cmTC_dedb9.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_dedb9
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_SUPPORTS_FNO_FUNCTION_SECTIONS succeeded with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_c5604 && [1/2] Building C object CMakeFiles/cmTC_c5604.dir/src.c.o
+[2/2] Linking C executable cmTC_c5604
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_SUPPORTS_FFUNCTION_SECTIONS succeeded with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_88d3e && [1/2] Building C object CMakeFiles/cmTC_88d3e.dir/src.c.o
+[2/2] Linking C executable cmTC_88d3e
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_FFUNCTION_SECTIONS succeeded with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_313d4 && [1/2] Building CXX object CMakeFiles/cmTC_313d4.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_313d4
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_SUPPORTS_FDATA_SECTIONS succeeded with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_8edce && [1/2] Building C object CMakeFiles/cmTC_8edce.dir/src.c.o
+[2/2] Linking C executable cmTC_8edce
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_FDATA_SECTIONS succeeded with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_64310 && [1/2] Building CXX object CMakeFiles/cmTC_64310.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_64310
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_SUPPORTS_CF_PROTECTION_BRANCH succeeded with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_b6300 && [1/2] Building C object CMakeFiles/cmTC_b6300.dir/src.c.o
+[2/2] Linking C executable cmTC_b6300
+
+
+Source file was:
+#include<stdio.h>
+int main(){printf("hello");
+return 0;}
+Performing C SOURCE FILE Test SPLIT_STACK_WORKAROUND succeeded with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_66f7b && [1/2] Building C object CMakeFiles/cmTC_66f7b.dir/src.c.o
+[2/2] Linking C executable cmTC_66f7b
+
+
+Source file was:
+#include<stdio.h>
+int main(){printf("hello");
+return 0;}
+Performing C SOURCE FILE Test HAVE_ATOMIC_FUNCTIONS succeeded with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_b72e3 && [1/2] Building C object CMakeFiles/cmTC_b72e3.dir/src.c.o
+[2/2] Linking C executable cmTC_b72e3
+
+
+Source file was:
+
+int i;
+int main () {
+  __atomic_load_n (&i, __ATOMIC_ACQUIRE);
+  __atomic_store_n (&i, 1, __ATOMIC_RELEASE);
+  __atomic_add_fetch (&i, 1, __ATOMIC_SEQ_CST);
+ return 0;
+}
+
+Determining if the clock_gettime exist passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_143c7 && [1/2] Building C object CMakeFiles/cmTC_143c7.dir/CheckSymbolExists.c.o
+CheckSymbolExists.c: In function ‘main’:
+CheckSymbolExists.c:8:11: warning: ISO C forbids conversion of function pointer to object pointer type [-Wpedantic]
+    8 |   return ((int*)(&clock_gettime))[argc];
+      |           ^
+[2/2] Linking C executable cmTC_143c7
+
+
+File /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <time.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef clock_gettime
+  return ((int*)(&clock_gettime))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strnlen exist passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_c0da9 && [1/2] Building C object CMakeFiles/cmTC_c0da9.dir/CheckSymbolExists.c.o
+CheckSymbolExists.c: In function ‘main’:
+CheckSymbolExists.c:8:11: warning: ISO C forbids conversion of function pointer to object pointer type [-Wpedantic]
+    8 |   return ((int*)(&strnlen))[argc];
+      |           ^
+[2/2] Linking C executable cmTC_c0da9
+
+
+File /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strnlen
+  return ((int*)(&strnlen))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the dl_iterate_phdr exist passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_b8186 && [1/2] Building C object CMakeFiles/cmTC_b8186.dir/CheckSymbolExists.c.o
+CheckSymbolExists.c: In function ‘main’:
+CheckSymbolExists.c:8:11: warning: ISO C forbids conversion of function pointer to object pointer type [-Wpedantic]
+    8 |   return ((int*)(&dl_iterate_phdr))[argc];
+      |           ^
+[2/2] Linking C executable cmTC_b8186
+
+
+File /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <link.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef dl_iterate_phdr
+  return ((int*)(&dl_iterate_phdr))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the fcntl exist passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_32846 && [1/2] Building C object CMakeFiles/cmTC_32846.dir/CheckSymbolExists.c.o
+CheckSymbolExists.c: In function ‘main’:
+CheckSymbolExists.c:9:11: warning: ISO C forbids conversion of function pointer to object pointer type [-Wpedantic]
+    9 |   return ((int*)(&fcntl))[argc];
+      |           ^
+[2/2] Linking C executable cmTC_32846
+
+
+File /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+#include <fcntl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef fcntl
+  return ((int*)(&fcntl))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the lstat exist passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_fc986 && [1/2] Building C object CMakeFiles/cmTC_fc986.dir/CheckSymbolExists.c.o
+CheckSymbolExists.c: In function ‘main’:
+CheckSymbolExists.c:10:11: warning: ISO C forbids conversion of function pointer to object pointer type [-Wpedantic]
+   10 |   return ((int*)(&lstat))[argc];
+      |           ^
+[2/2] Linking C executable cmTC_fc986
+
+
+File /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef lstat
+  return ((int*)(&lstat))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the readlink exist passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_67537 && [1/2] Building C object CMakeFiles/cmTC_67537.dir/CheckSymbolExists.c.o
+CheckSymbolExists.c: In function ‘main’:
+CheckSymbolExists.c:8:11: warning: ISO C forbids conversion of function pointer to object pointer type [-Wpedantic]
+    8 |   return ((int*)(&readlink))[argc];
+      |           ^
+[2/2] Linking C executable cmTC_67537
+
+
+File /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef readlink
+  return ((int*)(&readlink))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the mmap exist passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_102cb && [1/2] Building C object CMakeFiles/cmTC_102cb.dir/CheckSymbolExists.c.o
+CheckSymbolExists.c: In function ‘main’:
+CheckSymbolExists.c:8:11: warning: ISO C forbids conversion of function pointer to object pointer type [-Wpedantic]
+    8 |   return ((int*)(&mmap))[argc];
+      |           ^
+[2/2] Linking C executable cmTC_102cb
+
+
+File /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/mman.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef mmap
+  return ((int*)(&mmap))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the accept4 exist passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_b6300 && [1/2] Building C object CMakeFiles/cmTC_b6300.dir/CheckSymbolExists.c.o
+CheckSymbolExists.c: In function ‘main’:
+CheckSymbolExists.c:9:11: warning: ISO C forbids conversion of function pointer to object pointer type [-Wpedantic]
+    9 |   return ((int*)(&accept4))[argc];
+      |           ^
+[2/2] Linking C executable cmTC_b6300
+
+
+File /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/types.h>
+#include <sys/socket.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef accept4
+  return ((int*)(&accept4))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the dup3 exist passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_37ad8 && [1/2] Building C object CMakeFiles/cmTC_37ad8.dir/CheckSymbolExists.c.o
+CheckSymbolExists.c: In function ‘main’:
+CheckSymbolExists.c:9:11: warning: ISO C forbids conversion of function pointer to object pointer type [-Wpedantic]
+    9 |   return ((int*)(&dup3))[argc];
+      |           ^
+[2/2] Linking C executable cmTC_37ad8
+
+
+File /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef dup3
+  return ((int*)(&dup3))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the epoll_create1 exist passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_6ab9f && [1/2] Building C object CMakeFiles/cmTC_6ab9f.dir/CheckSymbolExists.c.o
+CheckSymbolExists.c: In function ‘main’:
+CheckSymbolExists.c:8:11: warning: ISO C forbids conversion of function pointer to object pointer type [-Wpedantic]
+    8 |   return ((int*)(&epoll_create1))[argc];
+      |           ^
+[2/2] Linking C executable cmTC_6ab9f
+
+
+File /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/epoll.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef epoll_create1
+  return ((int*)(&epoll_create1))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the faccessat exist passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_1bbac && [1/2] Building C object CMakeFiles/cmTC_1bbac.dir/CheckSymbolExists.c.o
+CheckSymbolExists.c: In function ‘main’:
+CheckSymbolExists.c:9:11: warning: ISO C forbids conversion of function pointer to object pointer type [-Wpedantic]
+    9 |   return ((int*)(&faccessat))[argc];
+      |           ^
+[2/2] Linking C executable cmTC_1bbac
+
+
+File /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef faccessat
+  return ((int*)(&faccessat))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the fallocate exist passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_a4d1d && [1/2] Building C object CMakeFiles/cmTC_a4d1d.dir/CheckSymbolExists.c.o
+CheckSymbolExists.c: In function ‘main’:
+CheckSymbolExists.c:8:11: warning: ISO C forbids conversion of function pointer to object pointer type [-Wpedantic]
+    8 |   return ((int*)(&fallocate))[argc];
+      |           ^
+[2/2] Linking C executable cmTC_a4d1d
+
+
+File /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <fcntl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef fallocate
+  return ((int*)(&fallocate))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the fchmodat exist passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_e323d && [1/2] Building C object CMakeFiles/cmTC_e323d.dir/CheckSymbolExists.c.o
+CheckSymbolExists.c: In function ‘main’:
+CheckSymbolExists.c:9:11: warning: ISO C forbids conversion of function pointer to object pointer type [-Wpedantic]
+    9 |   return ((int*)(&fchmodat))[argc];
+      |           ^
+[2/2] Linking C executable cmTC_e323d
+
+
+File /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <fcntl.h>
+#include <sys/stat.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef fchmodat
+  return ((int*)(&fchmodat))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the fchownat exist passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_f7fd3 && [1/2] Building C object CMakeFiles/cmTC_f7fd3.dir/CheckSymbolExists.c.o
+CheckSymbolExists.c: In function ‘main’:
+CheckSymbolExists.c:9:11: warning: ISO C forbids conversion of function pointer to object pointer type [-Wpedantic]
+    9 |   return ((int*)(&fchownat))[argc];
+      |           ^
+[2/2] Linking C executable cmTC_f7fd3
+
+
+File /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef fchownat
+  return ((int*)(&fchownat))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the futimesat exist passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_38fae && [1/2] Building C object CMakeFiles/cmTC_38fae.dir/CheckSymbolExists.c.o
+CheckSymbolExists.c: In function ‘main’:
+CheckSymbolExists.c:9:11: warning: ISO C forbids conversion of function pointer to object pointer type [-Wpedantic]
+    9 |   return ((int*)(&futimesat))[argc];
+      |           ^
+[2/2] Linking C executable cmTC_38fae
+
+
+File /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <fcntl.h>
+#include <sys/time.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef futimesat
+  return ((int*)(&futimesat))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the inotify_add_watch exist passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_7bdf9 && [1/2] Building C object CMakeFiles/cmTC_7bdf9.dir/CheckSymbolExists.c.o
+CheckSymbolExists.c: In function ‘main’:
+CheckSymbolExists.c:8:11: warning: ISO C forbids conversion of function pointer to object pointer type [-Wpedantic]
+    8 |   return ((int*)(&inotify_add_watch))[argc];
+      |           ^
+[2/2] Linking C executable cmTC_7bdf9
+
+
+File /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/inotify.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef inotify_add_watch
+  return ((int*)(&inotify_add_watch))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the inotify_init exist passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_0a864 && [1/2] Building C object CMakeFiles/cmTC_0a864.dir/CheckSymbolExists.c.o
+CheckSymbolExists.c: In function ‘main’:
+CheckSymbolExists.c:8:11: warning: ISO C forbids conversion of function pointer to object pointer type [-Wpedantic]
+    8 |   return ((int*)(&inotify_init))[argc];
+      |           ^
+[2/2] Linking C executable cmTC_0a864
+
+
+File /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/inotify.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef inotify_init
+  return ((int*)(&inotify_init))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the inotify_init1 exist passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_771c4 && [1/2] Building C object CMakeFiles/cmTC_771c4.dir/CheckSymbolExists.c.o
+CheckSymbolExists.c: In function ‘main’:
+CheckSymbolExists.c:8:11: warning: ISO C forbids conversion of function pointer to object pointer type [-Wpedantic]
+    8 |   return ((int*)(&inotify_init1))[argc];
+      |           ^
+[2/2] Linking C executable cmTC_771c4
+
+
+File /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/inotify.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef inotify_init1
+  return ((int*)(&inotify_init1))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the inotify_rm_watch exist passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_e55bf && [1/2] Building C object CMakeFiles/cmTC_e55bf.dir/CheckSymbolExists.c.o
+CheckSymbolExists.c: In function ‘main’:
+CheckSymbolExists.c:8:11: warning: ISO C forbids conversion of function pointer to object pointer type [-Wpedantic]
+    8 |   return ((int*)(&inotify_rm_watch))[argc];
+      |           ^
+[2/2] Linking C executable cmTC_e55bf
+
+
+File /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/inotify.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef inotify_rm_watch
+  return ((int*)(&inotify_rm_watch))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the listxattr exist passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_fd202 && [1/2] Building C object CMakeFiles/cmTC_fd202.dir/CheckSymbolExists.c.o
+CheckSymbolExists.c: In function ‘main’:
+CheckSymbolExists.c:9:11: warning: ISO C forbids conversion of function pointer to object pointer type [-Wpedantic]
+    9 |   return ((int*)(&listxattr))[argc];
+      |           ^
+[2/2] Linking C executable cmTC_fd202
+
+
+File /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/types.h>
+#include <sys/xattr.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef listxattr
+  return ((int*)(&listxattr))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the mincore exist passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_0e0f1 && [1/2] Building C object CMakeFiles/cmTC_0e0f1.dir/CheckSymbolExists.c.o
+CheckSymbolExists.c: In function ‘main’:
+CheckSymbolExists.c:9:11: warning: ISO C forbids conversion of function pointer to object pointer type [-Wpedantic]
+    9 |   return ((int*)(&mincore))[argc];
+      |           ^
+[2/2] Linking C executable cmTC_0e0f1
+
+
+File /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+#include <sys/mman.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef mincore
+  return ((int*)(&mincore))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the mkdirat exist passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_f78cb && [1/2] Building C object CMakeFiles/cmTC_f78cb.dir/CheckSymbolExists.c.o
+CheckSymbolExists.c: In function ‘main’:
+CheckSymbolExists.c:9:11: warning: ISO C forbids conversion of function pointer to object pointer type [-Wpedantic]
+    9 |   return ((int*)(&mkdirat))[argc];
+      |           ^
+[2/2] Linking C executable cmTC_f78cb
+
+
+File /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <fcntl.h>
+#include <sys/stat.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef mkdirat
+  return ((int*)(&mkdirat))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the openat exist passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_98726 && [1/2] Building C object CMakeFiles/cmTC_98726.dir/CheckSymbolExists.c.o
+CheckSymbolExists.c: In function ‘main’:
+CheckSymbolExists.c:8:11: warning: ISO C forbids conversion of function pointer to object pointer type [-Wpedantic]
+    8 |   return ((int*)(&openat))[argc];
+      |           ^
+[2/2] Linking C executable cmTC_98726
+
+
+File /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <fcntl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef openat
+  return ((int*)(&openat))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the removexattr exist passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_0a428 && [1/2] Building C object CMakeFiles/cmTC_0a428.dir/CheckSymbolExists.c.o
+CheckSymbolExists.c: In function ‘main’:
+CheckSymbolExists.c:9:11: warning: ISO C forbids conversion of function pointer to object pointer type [-Wpedantic]
+    9 |   return ((int*)(&removexattr))[argc];
+      |           ^
+[2/2] Linking C executable cmTC_0a428
+
+
+File /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/types.h>
+#include <sys/xattr.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef removexattr
+  return ((int*)(&removexattr))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the renameat exist passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_5a3f6 && [1/2] Building C object CMakeFiles/cmTC_5a3f6.dir/CheckSymbolExists.c.o
+CheckSymbolExists.c: In function ‘main’:
+CheckSymbolExists.c:9:11: warning: ISO C forbids conversion of function pointer to object pointer type [-Wpedantic]
+    9 |   return ((int*)(&renameat))[argc];
+      |           ^
+[2/2] Linking C executable cmTC_5a3f6
+
+
+File /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <fcntl.h>
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef renameat
+  return ((int*)(&renameat))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the setxattr exist passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_a34f1 && [1/2] Building C object CMakeFiles/cmTC_a34f1.dir/CheckSymbolExists.c.o
+CheckSymbolExists.c: In function ‘main’:
+CheckSymbolExists.c:9:11: warning: ISO C forbids conversion of function pointer to object pointer type [-Wpedantic]
+    9 |   return ((int*)(&setxattr))[argc];
+      |           ^
+[2/2] Linking C executable cmTC_a34f1
+
+
+File /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/types.h>
+#include <sys/xattr.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef setxattr
+  return ((int*)(&setxattr))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the splice exist passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_ef757 && [1/2] Building C object CMakeFiles/cmTC_ef757.dir/CheckSymbolExists.c.o
+CheckSymbolExists.c: In function ‘main’:
+CheckSymbolExists.c:8:11: warning: ISO C forbids conversion of function pointer to object pointer type [-Wpedantic]
+    8 |   return ((int*)(&splice))[argc];
+      |           ^
+[2/2] Linking C executable cmTC_ef757
+
+
+File /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <fcntl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef splice
+  return ((int*)(&splice))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the sync_file_range exist passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_eb2f2 && [1/2] Building C object CMakeFiles/cmTC_eb2f2.dir/CheckSymbolExists.c.o
+CheckSymbolExists.c: In function ‘main’:
+CheckSymbolExists.c:8:11: warning: ISO C forbids conversion of function pointer to object pointer type [-Wpedantic]
+    8 |   return ((int*)(&sync_file_range))[argc];
+      |           ^
+[2/2] Linking C executable cmTC_eb2f2
+
+
+File /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <fcntl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sync_file_range
+  return ((int*)(&sync_file_range))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the syscall exist passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_23465 && [1/2] Building C object CMakeFiles/cmTC_23465.dir/CheckSymbolExists.c.o
+CheckSymbolExists.c: In function ‘main’:
+CheckSymbolExists.c:8:11: warning: ISO C forbids conversion of function pointer to object pointer type [-Wpedantic]
+    8 |   return ((int*)(&syscall))[argc];
+      |           ^
+[2/2] Linking C executable cmTC_23465
+
+
+File /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef syscall
+  return ((int*)(&syscall))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the tee exist passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_a8560 && [1/2] Building C object CMakeFiles/cmTC_a8560.dir/CheckSymbolExists.c.o
+CheckSymbolExists.c: In function ‘main’:
+CheckSymbolExists.c:8:11: warning: ISO C forbids conversion of function pointer to object pointer type [-Wpedantic]
+    8 |   return ((int*)(&tee))[argc];
+      |           ^
+[2/2] Linking C executable cmTC_a8560
+
+
+File /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <fcntl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef tee
+  return ((int*)(&tee))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the unlinkat exist passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_c1ecd && [1/2] Building C object CMakeFiles/cmTC_c1ecd.dir/CheckSymbolExists.c.o
+CheckSymbolExists.c: In function ‘main’:
+CheckSymbolExists.c:9:11: warning: ISO C forbids conversion of function pointer to object pointer type [-Wpedantic]
+    9 |   return ((int*)(&unlinkat))[argc];
+      |           ^
+[2/2] Linking C executable cmTC_c1ecd
+
+
+File /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef unlinkat
+  return ((int*)(&unlinkat))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the unsetenv exist passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_3668c && [1/2] Building C object CMakeFiles/cmTC_3668c.dir/CheckSymbolExists.c.o
+CheckSymbolExists.c: In function ‘main’:
+CheckSymbolExists.c:8:11: warning: ISO C forbids conversion of function pointer to object pointer type [-Wpedantic]
+    8 |   return ((int*)(&unsetenv))[argc];
+      |           ^
+[2/2] Linking C executable cmTC_3668c
+
+
+File /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef unsetenv
+  return ((int*)(&unsetenv))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the unshare exist passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_eef5b && [1/2] Building C object CMakeFiles/cmTC_eef5b.dir/CheckSymbolExists.c.o
+CheckSymbolExists.c: In function ‘main’:
+CheckSymbolExists.c:8:11: warning: ISO C forbids conversion of function pointer to object pointer type [-Wpedantic]
+    8 |   return ((int*)(&unshare))[argc];
+      |           ^
+[2/2] Linking C executable cmTC_eef5b
+
+
+File /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sched.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef unshare
+  return ((int*)(&unshare))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the utimensat exist passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_2af3b && [1/2] Building C object CMakeFiles/cmTC_2af3b.dir/CheckSymbolExists.c.o
+CheckSymbolExists.c: In function ‘main’:
+CheckSymbolExists.c:9:11: warning: ISO C forbids conversion of function pointer to object pointer type [-Wpedantic]
+    9 |   return ((int*)(&utimensat))[argc];
+      |           ^
+[2/2] Linking C executable cmTC_2af3b
+
+
+File /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <fcntl.h>
+#include <sys/stat.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef utimensat
+  return ((int*)(&utimensat))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the wait4 exist passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_4b0fa && [1/2] Building C object CMakeFiles/cmTC_4b0fa.dir/CheckSymbolExists.c.o
+CheckSymbolExists.c: In function ‘main’:
+CheckSymbolExists.c:11:11: warning: ISO C forbids conversion of function pointer to object pointer type [-Wpedantic]
+   11 |   return ((int*)(&wait4))[argc];
+      |           ^
+[2/2] Linking C executable cmTC_4b0fa
+
+
+File /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/types.h>
+#include <sys/time.h>
+#include <sys/resource.h>
+#include <sys/wait.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef wait4
+  return ((int*)(&wait4))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the open64 exist passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_4a87b && [1/2] Building C object CMakeFiles/cmTC_4a87b.dir/CheckSymbolExists.c.o
+CheckSymbolExists.c: In function ‘main’:
+CheckSymbolExists.c:8:11: warning: ISO C forbids conversion of function pointer to object pointer type [-Wpedantic]
+    8 |   return ((int*)(&open64))[argc];
+      |           ^
+[2/2] Linking C executable cmTC_4a87b
+
+
+File /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <fcntl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef open64
+  return ((int*)(&open64))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the mknodat exist passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_251b6 && [1/2] Building C object CMakeFiles/cmTC_251b6.dir/CheckSymbolExists.c.o
+CheckSymbolExists.c: In function ‘main’:
+CheckSymbolExists.c:11:11: warning: ISO C forbids conversion of function pointer to object pointer type [-Wpedantic]
+   11 |   return ((int*)(&mknodat))[argc];
+      |           ^
+[2/2] Linking C executable cmTC_251b6
+
+
+File /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef mknodat
+  return ((int*)(&mknodat))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the pipe2 exist passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_d4495 && [1/2] Building C object CMakeFiles/cmTC_d4495.dir/CheckSymbolExists.c.o
+CheckSymbolExists.c: In function ‘main’:
+CheckSymbolExists.c:8:11: warning: ISO C forbids conversion of function pointer to object pointer type [-Wpedantic]
+    8 |   return ((int*)(&pipe2))[argc];
+      |           ^
+[2/2] Linking C executable cmTC_d4495
+
+
+File /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pipe2
+  return ((int*)(&pipe2))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the memmem exist passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_a37b4 && [1/2] Building C object CMakeFiles/cmTC_a37b4.dir/CheckSymbolExists.c.o
+CheckSymbolExists.c: In function ‘main’:
+CheckSymbolExists.c:8:11: warning: ISO C forbids conversion of function pointer to object pointer type [-Wpedantic]
+    8 |   return ((int*)(&memmem))[argc];
+      |           ^
+[2/2] Linking C executable cmTC_a37b4
+
+
+File /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef memmem
+  return ((int*)(&memmem))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the include file inttypes.h exists passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_df835 && [1/2] Building C object CMakeFiles/cmTC_df835.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_df835
+
+
+
+Determining if the include file linux/filter.h exists passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_bcb8b && [1/2] Building C object CMakeFiles/cmTC_bcb8b.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_bcb8b
+
+
+
+Determining if the include file linux/fs.h exists passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_4f69d && [1/2] Building C object CMakeFiles/cmTC_4f69d.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_4f69d
+
+
+
+Determining if the include file linux/if_addr.h exists passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_94a53 && [1/2] Building C object CMakeFiles/cmTC_94a53.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_94a53
+
+
+
+Determining if the include file linux/if_ether.h exists passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_2f4f9 && [1/2] Building C object CMakeFiles/cmTC_2f4f9.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_2f4f9
+
+
+
+Determining if the include file linux/if_tun.h exists passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_d0d2b && [1/2] Building C object CMakeFiles/cmTC_d0d2b.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_d0d2b
+
+
+
+Determining if the include file linux/netlink.h exists passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_5c34b && [1/2] Building C object CMakeFiles/cmTC_5c34b.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_5c34b
+
+
+
+Determining if the include file linux/ptrace.h exists passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_d84b5 && [1/2] Building C object CMakeFiles/cmTC_d84b5.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_d84b5
+
+
+
+Determining if the include file linux/reboot.h exists passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_31f27 && [1/2] Building C object CMakeFiles/cmTC_31f27.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_31f27
+
+
+
+Determining if the include file linux/rtnetlink.h exists passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_4a4a3 && [1/2] Building C object CMakeFiles/cmTC_4a4a3.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_4a4a3
+
+
+
+Determining if the include file memory.h exists passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_e1c6a && [1/2] Building C object CMakeFiles/cmTC_e1c6a.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_e1c6a
+
+
+
+Determining if the include file net/if.h exists passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_7d6ce && [1/2] Building C object CMakeFiles/cmTC_7d6ce.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_7d6ce
+
+
+
+Determining if the include file net/if_arp.h exists passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_3469c && [1/2] Building C object CMakeFiles/cmTC_3469c.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_3469c
+
+
+
+Determining if the include file net/route.h exists passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_68adb && [1/2] Building C object CMakeFiles/cmTC_68adb.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_68adb
+
+
+
+Determining if the include file netinet/icmp6.h exists passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_38b40 && [1/2] Building C object CMakeFiles/cmTC_38b40.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_38b40
+
+
+
+Determining if the include file netinet/if_ether.h exists passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_de451 && [1/2] Building C object CMakeFiles/cmTC_de451.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_de451
+
+
+
+Determining if the include file netinet/in_systm.h exists passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_8a22e && [1/2] Building C object CMakeFiles/cmTC_8a22e.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_8a22e
+
+
+
+Determining if the include file netinet/ip.h exists passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_558ae && [1/2] Building C object CMakeFiles/cmTC_558ae.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_558ae
+
+
+
+Determining if the include file netpacket/packet.h exists passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_ebb2e && [1/2] Building C object CMakeFiles/cmTC_ebb2e.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_ebb2e
+
+
+
+Determining if the include file sched.h exists passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_2f8fe && [1/2] Building C object CMakeFiles/cmTC_2f8fe.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_2f8fe
+
+
+
+Determining if the include file semaphore.h exists passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_497cf && [1/2] Building C object CMakeFiles/cmTC_497cf.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_497cf
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_e2829 && [1/2] Building C object CMakeFiles/cmTC_e2829.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_e2829
+
+
+
+Determining if the include file stdlib.h exists passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_e7c8f && [1/2] Building C object CMakeFiles/cmTC_e7c8f.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_e7c8f
+
+
+
+Determining if the include file strings.h exists passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_979f7 && [1/2] Building C object CMakeFiles/cmTC_979f7.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_979f7
+
+
+
+Determining if the include file sys/epoll.h exists passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_6cd0b && [1/2] Building C object CMakeFiles/cmTC_6cd0b.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_6cd0b
+
+
+
+Determining if the include file sys/file.h exists passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_f6fcf && [1/2] Building C object CMakeFiles/cmTC_f6fcf.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_f6fcf
+
+
+
+Determining if the include file sys/inotify.h exists passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_2b863 && [1/2] Building C object CMakeFiles/cmTC_2b863.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_2b863
+
+
+
+Determining if the include file sys/mount.h exists passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_ce062 && [1/2] Building C object CMakeFiles/cmTC_ce062.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_ce062
+
+
+
+Determining if the include file sys/prctl.h exists passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_6b60e && [1/2] Building C object CMakeFiles/cmTC_6b60e.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_6b60e
+
+
+
+Determining if the include file sys/ptrace.h exists passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_091e0 && [1/2] Building C object CMakeFiles/cmTC_091e0.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_091e0
+
+
+
+Determining if the include file sys/select.h exists passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_a9163 && [1/2] Building C object CMakeFiles/cmTC_a9163.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_a9163
+
+
+
+Determining if the include file sys/statfs.h exists passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_a1064 && [1/2] Building C object CMakeFiles/cmTC_a1064.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_a1064
+
+
+
+Determining if the include file sys/syscall.h exists passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_ff69b && [1/2] Building C object CMakeFiles/cmTC_ff69b.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_ff69b
+
+
+
+Determining if the include file sys/sysinfo.h exists passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_edae4 && [1/2] Building C object CMakeFiles/cmTC_edae4.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_edae4
+
+
+
+Determining if the include file sys/timex.h exists passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_79ba6 && [1/2] Building C object CMakeFiles/cmTC_79ba6.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_79ba6
+
+
+
+Determining if the include file sys/user.h exists passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_34866 && [1/2] Building C object CMakeFiles/cmTC_34866.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_34866
+
+
+
+Determining if the include file sys/utsname.h exists passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_9edc2 && [1/2] Building C object CMakeFiles/cmTC_9edc2.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_9edc2
+
+
+
+Determining if the include file sys/vfs.h exists passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_209a2 && [1/2] Building C object CMakeFiles/cmTC_209a2.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_209a2
+
+
+
+Determining if the include file syscall.h exists passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_4277b && [1/2] Building C object CMakeFiles/cmTC_4277b.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_4277b
+
+
+
+Determining if the include file utime.h exists passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_6c92d && [1/2] Building C object CMakeFiles/cmTC_6c92d.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_6c92d
+
+
+
+Determining if the function compress exists in the z passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_20f9f && [1/2] Building C object CMakeFiles/cmTC_20f9f.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_20f9f
+
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_ee371 && [1/2] Building C object CMakeFiles/cmTC_ee371.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_ee371
+
+
+
+Determining size of double passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_f513d && [1/2] Building C object CMakeFiles/cmTC_f513d.dir/SIZEOF_DOUBLE.c.o
+[2/2] Linking C executable cmTC_f513d
+
+
+
+Determining size of long double passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_d2031 && [1/2] Building C object CMakeFiles/cmTC_d2031.dir/HAVE_LONG_DOUBLE.c.o
+[2/2] Linking C executable cmTC_d2031
+
+
+
+Determining size of long double passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_25a3e && [1/2] Building C object CMakeFiles/cmTC_25a3e.dir/SIZEOF_LONG_DOUBLE.c.o
+[2/2] Linking C executable cmTC_25a3e
+
+
+
+Determining size of void* passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_85221 && [1/2] Building C object CMakeFiles/cmTC_85221.dir/SIZEOF_VOID_P.c.o
+[2/2] Linking C executable cmTC_85221
+
+
+
+Determining if the include file alloca.h exists passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_d54e6 && [1/2] Building C object CMakeFiles/cmTC_d54e6.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_d54e6
+
+
+
+Determining if the function memcpy exists passed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_56f8f && [1/2] Building C object CMakeFiles/cmTC_56f8f.dir/CheckFunctionExists.c.o
+<command-line>: warning: conflicting types for built-in function ‘memcpy’; expected ‘void *(void *, const void *, long unsigned int)’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.16/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/usr/share/cmake-3.16/Modules/CheckFunctionExists.c:1:1: note: ‘memcpy’ is declared in header ‘<string.h>’
+  +++ |+#include <string.h>
+    1 | #ifdef CHECK_FUNCTION_EXISTS
+[2/2] Linking C executable cmTC_56f8f
+
+
+
+Performing C SOURCE FILE Test HAVE_SYNC_BOOL_COMPARE_AND_SWAP_4 succeeded with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_88132 && [1/2] Building C object CMakeFiles/cmTC_88132.dir/src.c.o
+[2/2] Linking C executable cmTC_88132
+
+
+Source file was:
+int main(int argc, char **argv) { return __sync_bool_compare_and_swap(&argc, argc, -argc) ? 1 : 0; }
+
+Performing C SOURCE FILE Test HAVE_SYNC_BOOL_COMPARE_AND_SWAP_8 succeeded with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_7e9da && [1/2] Building C object CMakeFiles/cmTC_7e9da.dir/src.c.o
+[2/2] Linking C executable cmTC_7e9da
+
+
+Source file was:
+#include <stdint.h>
+static uint64_t s;
+int main(int argc, char **argv) { return __sync_bool_compare_and_swap(&s, argc, -argc) ? 0 : 1; }
+
+Performing C SOURCE FILE Test HAVE_AS_X86_AES succeeded with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_de8a2 && [1/2] Building C object CMakeFiles/cmTC_de8a2.dir/src.c.o
+[2/2] Linking C executable cmTC_de8a2
+
+
+Source file was:
+int main() { __asm__("aesenc %xmm0, %xmm1"); return 0; }
+
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_STD_CXX11 succeeded with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_fe3e3 && [1/2] Building CXX object CMakeFiles/cmTC_fe3e3.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_fe3e3
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WALL succeeded with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_fe8aa && [1/2] Building CXX object CMakeFiles/cmTC_fe8aa.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_fe8aa
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WEXTRA succeeded with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_14dfe && [1/2] Building CXX object CMakeFiles/cmTC_14dfe.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_14dfe
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WSHADOW succeeded with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_b56ff && [1/2] Building CXX object CMakeFiles/cmTC_b56ff.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_b56ff
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_PEDANTIC succeeded with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_1f10e && [1/2] Building CXX object CMakeFiles/cmTC_1f10e.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_1f10e
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_PEDANTIC_ERRORS succeeded with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_c223d && [1/2] Building CXX object CMakeFiles/cmTC_c223d.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_c223d
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WFLOAT_EQUAL succeeded with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_d9216 && [1/2] Building CXX object CMakeFiles/cmTC_d9216.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_d9216
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_FSTRICT_ALIASING succeeded with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_40661 && [1/2] Building CXX object CMakeFiles/cmTC_40661.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_40661
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_FNO_EXCEPTIONS succeeded with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_ac279 && [1/2] Building CXX object CMakeFiles/cmTC_ac279.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_ac279
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WSTRICT_ALIASING succeeded with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_24505 && [1/2] Building CXX object CMakeFiles/cmTC_24505.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_24505
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_COVERAGE succeeded with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_98afe && [1/2] Building CXX object CMakeFiles/cmTC_98afe.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_98afe
+
+
+Source file was:
+int main() { return 0; }

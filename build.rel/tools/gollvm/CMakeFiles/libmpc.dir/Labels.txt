@@ -1,0 +1,29 @@
+# Target labels
+ libmpc
+# Source files and their labels
+/media/ubuntu/RESERVE0/workspace/build.rel/tools/gollvm/CMakeFiles/libmpc
+/media/ubuntu/RESERVE0/workspace/build.rel/tools/gollvm/CMakeFiles/libmpc.rule
+/media/ubuntu/RESERVE0/workspace/build.rel/tools/gollvm/CMakeFiles/libmpc-complete.rule
+/media/ubuntu/RESERVE0/workspace/build.rel/tools/gollvm/external/install/src/libmpc-stamp/libmpc-install.rule
+/media/ubuntu/RESERVE0/workspace/build.rel/tools/gollvm/external/install/src/libmpc-stamp/libmpc-mkdir.rule
+/media/ubuntu/RESERVE0/workspace/build.rel/tools/gollvm/external/install/src/libmpc-stamp/libmpc-download.rule
+/media/ubuntu/RESERVE0/workspace/build.rel/tools/gollvm/external/install/src/libmpc-stamp/libmpc-update.rule
+/media/ubuntu/RESERVE0/workspace/build.rel/tools/gollvm/external/install/src/libmpc-stamp/libmpc-patch.rule
+/media/ubuntu/RESERVE0/workspace/build.rel/tools/gollvm/external/install/src/libmpc-stamp/libmpc-configure.rule
+/media/ubuntu/RESERVE0/workspace/build.rel/tools/gollvm/external/install/src/libmpc-stamp/libmpc-build.rule
+/media/ubuntu/RESERVE0/workspace/build.rel/tools/gollvm/CMakeFiles/libgmp-complete.rule
+/media/ubuntu/RESERVE0/workspace/build.rel/tools/gollvm/CMakeFiles/libmpfr-complete.rule
+/media/ubuntu/RESERVE0/workspace/build.rel/tools/gollvm/libgmp-prefix/src/libgmp-stamp/libgmp-install.rule
+/media/ubuntu/RESERVE0/workspace/build.rel/tools/gollvm/libgmp-prefix/src/libgmp-stamp/libgmp-mkdir.rule
+/media/ubuntu/RESERVE0/workspace/build.rel/tools/gollvm/libgmp-prefix/src/libgmp-stamp/libgmp-download.rule
+/media/ubuntu/RESERVE0/workspace/build.rel/tools/gollvm/libgmp-prefix/src/libgmp-stamp/libgmp-update.rule
+/media/ubuntu/RESERVE0/workspace/build.rel/tools/gollvm/libgmp-prefix/src/libgmp-stamp/libgmp-patch.rule
+/media/ubuntu/RESERVE0/workspace/build.rel/tools/gollvm/libgmp-prefix/src/libgmp-stamp/libgmp-configure.rule
+/media/ubuntu/RESERVE0/workspace/build.rel/tools/gollvm/libgmp-prefix/src/libgmp-stamp/libgmp-build.rule
+/media/ubuntu/RESERVE0/workspace/build.rel/tools/gollvm/libmpfr-prefix/src/libmpfr-stamp/libmpfr-install.rule
+/media/ubuntu/RESERVE0/workspace/build.rel/tools/gollvm/libmpfr-prefix/src/libmpfr-stamp/libmpfr-mkdir.rule
+/media/ubuntu/RESERVE0/workspace/build.rel/tools/gollvm/libmpfr-prefix/src/libmpfr-stamp/libmpfr-download.rule
+/media/ubuntu/RESERVE0/workspace/build.rel/tools/gollvm/libmpfr-prefix/src/libmpfr-stamp/libmpfr-update.rule
+/media/ubuntu/RESERVE0/workspace/build.rel/tools/gollvm/libmpfr-prefix/src/libmpfr-stamp/libmpfr-patch.rule
+/media/ubuntu/RESERVE0/workspace/build.rel/tools/gollvm/libmpfr-prefix/src/libmpfr-stamp/libmpfr-configure.rule
+/media/ubuntu/RESERVE0/workspace/build.rel/tools/gollvm/libmpfr-prefix/src/libmpfr-stamp/libmpfr-build.rule

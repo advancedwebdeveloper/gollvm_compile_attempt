@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/media/ubuntu/RESERVE0/workspace/build.rel/tools/gollvm/CMakeFiles/libgmp"
+		},
+		{
+			"file" : "/media/ubuntu/RESERVE0/workspace/build.rel/tools/gollvm/CMakeFiles/libgmp.rule"
+		},
+		{
+			"file" : "/media/ubuntu/RESERVE0/workspace/build.rel/tools/gollvm/CMakeFiles/libgmp-complete.rule"
+		},
+		{
+			"file" : "/media/ubuntu/RESERVE0/workspace/build.rel/tools/gollvm/libgmp-prefix/src/libgmp-stamp/libgmp-install.rule"
+		},
+		{
+			"file" : "/media/ubuntu/RESERVE0/workspace/build.rel/tools/gollvm/libgmp-prefix/src/libgmp-stamp/libgmp-mkdir.rule"
+		},
+		{
+			"file" : "/media/ubuntu/RESERVE0/workspace/build.rel/tools/gollvm/libgmp-prefix/src/libgmp-stamp/libgmp-download.rule"
+		},
+		{
+			"file" : "/media/ubuntu/RESERVE0/workspace/build.rel/tools/gollvm/libgmp-prefix/src/libgmp-stamp/libgmp-update.rule"
+		},
+		{
+			"file" : "/media/ubuntu/RESERVE0/workspace/build.rel/tools/gollvm/libgmp-prefix/src/libgmp-stamp/libgmp-patch.rule"
+		},
+		{
+			"file" : "/media/ubuntu/RESERVE0/workspace/build.rel/tools/gollvm/libgmp-prefix/src/libgmp-stamp/libgmp-configure.rule"
+		},
+		{
+			"file" : "/media/ubuntu/RESERVE0/workspace/build.rel/tools/gollvm/libgmp-prefix/src/libgmp-stamp/libgmp-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"libgmp"
+		],
+		"name" : "libgmp"
+	}
+}

@@ -1,0 +1,519 @@
+- The C compiler identification is GNU 9.3.0
+-- The CXX compiler identification is GNU 9.3.0
+-- The ASM compiler identification is GNU
+-- Found assembler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Looking for dlfcn.h
+-- Looking for dlfcn.h - found
+-- Looking for errno.h
+-- Looking for errno.h - found
+-- Looking for fcntl.h
+-- Looking for fcntl.h - found
+-- Looking for link.h
+-- Looking for link.h - found
+-- Looking for malloc/malloc.h
+-- Looking for malloc/malloc.h - not found
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for signal.h
+-- Looking for signal.h - found
+-- Looking for sys/ioctl.h
+-- Looking for sys/ioctl.h - found
+-- Looking for sys/mman.h
+-- Looking for sys/mman.h - found
+-- Looking for sys/param.h
+-- Looking for sys/param.h - found
+-- Looking for sys/resource.h
+-- Looking for sys/resource.h - found
+-- Looking for sys/stat.h
+-- Looking for sys/stat.h - found
+-- Looking for sys/time.h
+-- Looking for sys/time.h - found
+-- Looking for sys/types.h
+-- Looking for sys/types.h - found
+-- Looking for termios.h
+-- Looking for termios.h - found
+-- Looking for unistd.h
+-- Looking for unistd.h - found
+-- Looking for valgrind/valgrind.h
+-- Looking for valgrind/valgrind.h - not found
+-- Looking for zlib.h
+-- Looking for zlib.h - found
+-- Looking for fenv.h
+-- Looking for fenv.h - found
+-- Looking for FE_ALL_EXCEPT
+-- Looking for FE_ALL_EXCEPT - found
+-- Looking for FE_INEXACT
+-- Looking for FE_INEXACT - found
+-- Looking for mach/mach.h
+-- Looking for mach/mach.h - not found
+-- Looking for histedit.h
+-- Looking for histedit.h - not found
+-- Looking for CrashReporterClient.h
+-- Looking for CrashReporterClient.h - not found
+-- Looking for linux/magic.h
+-- Looking for linux/magic.h - found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Looking for pthread_getspecific in pthread
+-- Looking for pthread_getspecific in pthread - found
+-- Looking for pthread_rwlock_init in pthread
+-- Looking for pthread_rwlock_init in pthread - found
+-- Looking for pthread_mutex_lock in pthread
+-- Looking for pthread_mutex_lock in pthread - found
+-- Looking for dlopen in dl
+-- Looking for dlopen in dl - found
+-- Looking for clock_gettime in rt
+-- Looking for clock_gettime in rt - found
+-- Looking for pfm_initialize in pfm
+-- Looking for pfm_initialize in pfm - not found
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Looking for compress2 in z
+-- Looking for compress2 in z - found
+-- Looking for setupterm in terminfo
+-- Looking for setupterm in terminfo - not found
+-- Looking for setupterm in tinfo
+-- Looking for setupterm in tinfo - found
+-- Could NOT find LibXml2 (missing: LIBXML2_LIBRARY LIBXML2_INCLUDE_DIR) 
+-- Looking for xar_open in xar
+-- Looking for xar_open in xar - not found
+-- Looking for arc4random
+-- Looking for arc4random - not found
+-- Looking for backtrace
+-- Looking for backtrace - found
+-- backtrace facility detected in default set of libraries
+-- Found Backtrace: /usr/include  
+-- Performing Test C_SUPPORTS_WERROR_UNGUARDED_AVAILABILITY_NEW
+-- Performing Test C_SUPPORTS_WERROR_UNGUARDED_AVAILABILITY_NEW - Failed
+-- Looking for _Unwind_Backtrace
+-- Looking for _Unwind_Backtrace - found
+-- Looking for getpagesize
+-- Looking for getpagesize - found
+-- Looking for sysconf
+-- Looking for sysconf - found
+-- Looking for getrusage
+-- Looking for getrusage - found
+-- Looking for setrlimit
+-- Looking for setrlimit - found
+-- Looking for isatty
+-- Looking for isatty - found
+-- Looking for futimens
+-- Looking for futimens - found
+-- Looking for futimes
+-- Looking for futimes - found
+-- Looking for posix_fallocate
+-- Looking for posix_fallocate - found
+-- Looking for sigaltstack
+-- Looking for sigaltstack - found
+-- Looking for lseek64
+-- Looking for lseek64 - found
+-- Looking for mallctl
+-- Looking for mallctl - not found
+-- Looking for mallinfo
+-- Looking for mallinfo - found
+-- Looking for malloc_zone_statistics
+-- Looking for malloc_zone_statistics - not found
+-- Looking for getrlimit
+-- Looking for getrlimit - found
+-- Looking for posix_spawn
+-- Looking for posix_spawn - found
+-- Looking for pread
+-- Looking for pread - found
+-- Looking for sbrk
+-- Looking for sbrk - found
+-- Looking for strerror
+-- Looking for strerror - found
+-- Looking for strerror_r
+-- Looking for strerror_r - found
+-- Looking for strerror_s
+-- Looking for strerror_s - not found
+-- Looking for setenv
+-- Looking for setenv - found
+-- Looking for dlopen
+-- Looking for dlopen - found
+-- Looking for dladdr
+-- Looking for dladdr - not found
+-- Performing Test HAVE_STRUCT_STAT_ST_MTIMESPEC_TV_NSEC
+-- Performing Test HAVE_STRUCT_STAT_ST_MTIMESPEC_TV_NSEC - Failed
+-- Performing Test HAVE_STRUCT_STAT_ST_MTIM_TV_NSEC
+-- Performing Test HAVE_STRUCT_STAT_ST_MTIM_TV_NSEC - Success
+-- Looking for __GLIBC__
+-- Looking for __GLIBC__ - found
+-- Looking for pthread_getname_np
+-- Looking for pthread_getname_np - found
+-- Looking for pthread_setname_np
+-- Looking for pthread_setname_np - found
+-- Performing Test HAVE_STD_IS_TRIVIALLY_COPYABLE
+-- Performing Test HAVE_STD_IS_TRIVIALLY_COPYABLE - Success
+-- Performing Test HAVE_CXX_ATOMICS_WITHOUT_LIB
+-- Performing Test HAVE_CXX_ATOMICS_WITHOUT_LIB - Success
+-- Performing Test HAVE_CXX_ATOMICS64_WITHOUT_LIB
+-- Performing Test HAVE_CXX_ATOMICS64_WITHOUT_LIB - Success
+-- Performing Test LLVM_HAS_ATOMICS
+-- Performing Test LLVM_HAS_ATOMICS - Success
+-- Performing Test SUPPORTS_VARIADIC_MACROS_FLAG
+-- Performing Test SUPPORTS_VARIADIC_MACROS_FLAG - Success
+-- Performing Test SUPPORTS_GNU_ZERO_VARIADIC_MACRO_ARGUMENTS_FLAG
+-- Performing Test SUPPORTS_GNU_ZERO_VARIADIC_MACRO_ARGUMENTS_FLAG - Failed
+-- Performing Test HAS_MAYBE_UNINITIALIZED
+-- Performing Test HAS_MAYBE_UNINITIALIZED - Success
+-- Native target architecture is X86
+-- Threads enabled.
+-- Doxygen disabled.
+-- Go bindings disabled.
+-- Ninja version: 1.10.0.git.kitware.jobserver-1
+-- Could NOT find OCaml (missing: OCAMLFIND OCAML_VERSION OCAML_STDLIB_PATH) 
+-- Could NOT find OCaml (missing: OCAMLFIND OCAML_VERSION OCAML_STDLIB_PATH) 
+-- OCaml bindings disabled.
+-- Could NOT find Python module pygments
+-- Could NOT find Python module pygments.lexers.c_cpp
+-- Could NOT find Python module yaml
+-- LLVM host triple: x86_64-unknown-linux-gnu
+-- LLVM default target triple: x86_64-unknown-linux-gnu
+-- Performing Test CXX_SUPPORTS_CUSTOM_LINKER
+-- Performing Test CXX_SUPPORTS_CUSTOM_LINKER - Success
+-- Performing Test C_SUPPORTS_FPIC
+-- Performing Test C_SUPPORTS_FPIC - Success
+-- Performing Test CXX_SUPPORTS_FPIC
+-- Performing Test CXX_SUPPORTS_FPIC - Success
+-- Building with -fPIC
+-- Performing Test SUPPORTS_FVISIBILITY_INLINES_HIDDEN_FLAG
+-- Performing Test SUPPORTS_FVISIBILITY_INLINES_HIDDEN_FLAG - Success
+-- Performing Test C_SUPPORTS_WERROR_DATE_TIME
+-- Performing Test C_SUPPORTS_WERROR_DATE_TIME - Success
+-- Performing Test CXX_SUPPORTS_WERROR_DATE_TIME
+-- Performing Test CXX_SUPPORTS_WERROR_DATE_TIME - Success
+-- Performing Test CXX_SUPPORTS_WERROR_UNGUARDED_AVAILABILITY_NEW
+-- Performing Test CXX_SUPPORTS_WERROR_UNGUARDED_AVAILABILITY_NEW - Failed
+-- Performing Test CXX_SUPPORTS_MISSING_FIELD_INITIALIZERS_FLAG
+-- Performing Test CXX_SUPPORTS_MISSING_FIELD_INITIALIZERS_FLAG - Success
+-- Performing Test C_SUPPORTS_IMPLICIT_FALLTHROUGH_FLAG
+-- Performing Test C_SUPPORTS_IMPLICIT_FALLTHROUGH_FLAG - Success
+-- Performing Test CXX_SUPPORTS_IMPLICIT_FALLTHROUGH_FLAG
+-- Performing Test CXX_SUPPORTS_IMPLICIT_FALLTHROUGH_FLAG - Success
+-- Performing Test C_SUPPORTS_COVERED_SWITCH_DEFAULT_FLAG
+-- Performing Test C_SUPPORTS_COVERED_SWITCH_DEFAULT_FLAG - Failed
+-- Performing Test CXX_SUPPORTS_COVERED_SWITCH_DEFAULT_FLAG
+-- Performing Test CXX_SUPPORTS_COVERED_SWITCH_DEFAULT_FLAG - Failed
+-- Performing Test CXX_SUPPORTS_CLASS_MEMACCESS_FLAG
+-- Performing Test CXX_SUPPORTS_CLASS_MEMACCESS_FLAG - Success
+-- Performing Test CXX_SUPPORTS_REDUNDANT_MOVE_FLAG
+-- Performing Test CXX_SUPPORTS_REDUNDANT_MOVE_FLAG - Success
+-- Performing Test CXX_SUPPORTS_NOEXCEPT_TYPE_FLAG
+-- Performing Test CXX_SUPPORTS_NOEXCEPT_TYPE_FLAG - Success
+-- Performing Test C_SUPPORTS_DELETE_NON_VIRTUAL_DTOR_FLAG
+-- Performing Test C_SUPPORTS_DELETE_NON_VIRTUAL_DTOR_FLAG - Failed
+-- Performing Test CXX_SUPPORTS_DELETE_NON_VIRTUAL_DTOR_FLAG
+-- Performing Test CXX_SUPPORTS_DELETE_NON_VIRTUAL_DTOR_FLAG - Success
+-- Performing Test C_WCOMMENT_ALLOWS_LINE_WRAP
+-- Performing Test C_WCOMMENT_ALLOWS_LINE_WRAP - Failed
+-- Performing Test C_SUPPORTS_STRING_CONVERSION_FLAG
+-- Performing Test C_SUPPORTS_STRING_CONVERSION_FLAG - Failed
+-- Performing Test CXX_SUPPORTS_STRING_CONVERSION_FLAG
+-- Performing Test CXX_SUPPORTS_STRING_CONVERSION_FLAG - Failed
+-- Performing Test LINKER_SUPPORTS_COLOR_DIAGNOSTICS
+-- Performing Test LINKER_SUPPORTS_COLOR_DIAGNOSTICS - Failed
+-- Performing Test C_SUPPORTS_FNO_FUNCTION_SECTIONS
+-- Performing Test C_SUPPORTS_FNO_FUNCTION_SECTIONS - Success
+-- Performing Test C_SUPPORTS_FFUNCTION_SECTIONS
+-- Performing Test C_SUPPORTS_FFUNCTION_SECTIONS - Success
+-- Performing Test CXX_SUPPORTS_FFUNCTION_SECTIONS
+-- Performing Test CXX_SUPPORTS_FFUNCTION_SECTIONS - Success
+-- Performing Test C_SUPPORTS_FDATA_SECTIONS
+-- Performing Test C_SUPPORTS_FDATA_SECTIONS - Success
+-- Performing Test CXX_SUPPORTS_FDATA_SECTIONS
+-- Performing Test CXX_SUPPORTS_FDATA_SECTIONS - Success
+-- Looking for os_signpost_interval_begin
+-- Looking for os_signpost_interval_begin - not found
+-- Found Python3: /usr/bin/python3.8 (found version "3.8.2") found components: Interpreter 
+-- Constructing LLVMBuild project information
+-- Linker detection: GNU Gold
+-- Found Git: /usr/bin/git (found version "2.25.1") 
+-- Targeting AArch64
+-- Targeting AMDGPU
+-- Targeting ARM
+-- Targeting AVR
+-- Targeting BPF
+-- Targeting Hexagon
+-- Targeting Lanai
+-- Targeting Mips
+-- Targeting MSP430
+-- Targeting NVPTX
+-- Targeting PowerPC
+-- Targeting RISCV
+-- Targeting Sparc
+-- Targeting SystemZ
+-- Targeting WebAssembly
+-- Targeting X86
+-- Targeting XCore
+-- default linker set to "gold"
+-- Performing Test C_SUPPORTS_CF_PROTECTION_BRANCH
+-- Performing Test C_SUPPORTS_CF_PROTECTION_BRANCH - Success
+-- Performing Test SPLIT_STACK_FUNCTIONAL
+-- Performing Test SPLIT_STACK_FUNCTIONAL - Failed
+-- trying -fcf-protection=none workaround
+-- Performing Test SPLIT_STACK_WORKAROUND
+-- Performing Test SPLIT_STACK_WORKAROUND - Success
+-- applying -fcf-protection=none workaround
+-- starting libgo configuration.
+-- Performing Test HAVE_ATOMIC_FUNCTIONS
+-- Performing Test HAVE_ATOMIC_FUNCTIONS - Success
+-- Looking for clock_gettime
+-- Looking for clock_gettime - found
+-- Looking for strnlen
+-- Looking for strnlen - found
+-- Looking for dl_iterate_phdr
+-- Looking for dl_iterate_phdr - found
+-- Looking for fcntl
+-- Looking for fcntl - found
+-- Looking for getexecname
+-- Looking for getexecname - not found
+-- Looking for lstat
+-- Looking for lstat - found
+-- Looking for readlink
+-- Looking for readlink - found
+-- Looking for mmap
+-- Looking for mmap - found
+-- Looking for accept4
+-- Looking for accept4 - found
+-- Looking for dup3
+-- Looking for dup3 - found
+-- Looking for epoll_create1
+-- Looking for epoll_create1 - found
+-- Looking for faccessat
+-- Looking for faccessat - found
+-- Looking for fallocate
+-- Looking for fallocate - found
+-- Looking for fchmodat
+-- Looking for fchmodat - found
+-- Looking for fchownat
+-- Looking for fchownat - found
+-- Looking for futimesat
+-- Looking for futimesat - found
+-- Looking for inotify_add_watch
+-- Looking for inotify_add_watch - found
+-- Looking for inotify_init
+-- Looking for inotify_init - found
+-- Looking for inotify_init1
+-- Looking for inotify_init1 - found
+-- Looking for inotify_rm_watch
+-- Looking for inotify_rm_watch - found
+-- Looking for listxattr
+-- Looking for listxattr - found
+-- Looking for mincore
+-- Looking for mincore - found
+-- Looking for mkdirat
+-- Looking for mkdirat - found
+-- Looking for openat
+-- Looking for openat - found
+-- Looking for removexattr
+-- Looking for removexattr - found
+-- Looking for renameat
+-- Looking for renameat - found
+-- Looking for setxattr
+-- Looking for setxattr - found
+-- Looking for splice
+-- Looking for splice - found
+-- Looking for sync_file_range
+-- Looking for sync_file_range - found
+-- Looking for syscall
+-- Looking for syscall - found
+-- Looking for tee
+-- Looking for tee - found
+-- Looking for unlinkat
+-- Looking for unlinkat - found
+-- Looking for unsetenv
+-- Looking for unsetenv - found
+-- Looking for unshare
+-- Looking for unshare - found
+-- Looking for utimensat
+-- Looking for utimensat - found
+-- Looking for wait4
+-- Looking for wait4 - found
+-- Looking for open64
+-- Looking for open64 - found
+-- Looking for mknodat
+-- Looking for mknodat - found
+-- Looking for pipe2
+-- Looking for pipe2 - found
+-- Looking for memmem
+-- Looking for memmem - found
+-- Looking for inttypes.h
+-- Looking for inttypes.h - found
+-- Looking for linux/ether.h
+-- Looking for linux/ether.h - not found
+-- Looking for linux/filter.h
+-- Looking for linux/filter.h - found
+-- Looking for linux/fs.h
+-- Looking for linux/fs.h - found
+-- Looking for linux/if_addr.h
+-- Looking for linux/if_addr.h - found
+-- Looking for linux/if_ether.h
+-- Looking for linux/if_ether.h - found
+-- Looking for linux/if_tun.h
+-- Looking for linux/if_tun.h - found
+-- Looking for linux/netlink.h
+-- Looking for linux/netlink.h - found
+-- Looking for linux/ptrace.h
+-- Looking for linux/ptrace.h - found
+-- Looking for linux/reboot.h
+-- Looking for linux/reboot.h - found
+-- Looking for linux/rtnetlink.h
+-- Looking for linux/rtnetlink.h - found
+-- Looking for memory.h
+-- Looking for memory.h - found
+-- Looking for net/if.h
+-- Looking for net/if.h - found
+-- Looking for net/if_arp.h
+-- Looking for net/if_arp.h - found
+-- Looking for net/route.h
+-- Looking for net/route.h - found
+-- Looking for netinet/icmp6.h
+-- Looking for netinet/icmp6.h - found
+-- Looking for netinet/if_ether.h
+-- Looking for netinet/if_ether.h - found
+-- Looking for netinet/in_systm.h
+-- Looking for netinet/in_systm.h - found
+-- Looking for netinet/ip.h
+-- Looking for netinet/ip.h - found
+-- Looking for netinet/ip_mroute.h
+-- Looking for netinet/ip_mroute.h - not found
+-- Looking for netpacket/packet.h
+-- Looking for netpacket/packet.h - found
+-- Looking for port.h
+-- Looking for port.h - not found
+-- Looking for sched.h
+-- Looking for sched.h - found
+-- Looking for semaphore.h
+-- Looking for semaphore.h - found
+-- Looking for stdint.h
+-- Looking for stdint.h - found
+-- Looking for stdlib.h
+-- Looking for stdlib.h - found
+-- Looking for strings.h
+-- Looking for strings.h - found
+-- Looking for sys/epoll.h
+-- Looking for sys/epoll.h - found
+-- Looking for sys/file.h
+-- Looking for sys/file.h - found
+-- Looking for sys/inotify.h
+-- Looking for sys/inotify.h - found
+-- Looking for sys/mount.h
+-- Looking for sys/mount.h - found
+-- Looking for sys/prctl.h
+-- Looking for sys/prctl.h - found
+-- Looking for sys/ptrace.h
+-- Looking for sys/ptrace.h - found
+-- Looking for sys/select.h
+-- Looking for sys/select.h - found
+-- Looking for sys/statfs.h
+-- Looking for sys/statfs.h - found
+-- Looking for sys/syscall.h
+-- Looking for sys/syscall.h - found
+-- Looking for sys/sysinfo.h
+-- Looking for sys/sysinfo.h - found
+-- Looking for sys/timex.h
+-- Looking for sys/timex.h - found
+-- Looking for sys/user.h
+-- Looking for sys/user.h - found
+-- Looking for sys/utsname.h
+-- Looking for sys/utsname.h - found
+-- Looking for sys/vfs.h
+-- Looking for sys/vfs.h - found
+-- Looking for syscall.h
+-- Looking for syscall.h - found
+-- Looking for utime.h
+-- Looking for utime.h - found
+-- Looking for compress in z
+-- Looking for compress in z - found
+-- Looking for stddef.h
+-- Looking for stddef.h - found
+-- Check size of double
+-- Check size of double - done
+-- Check size of long double
+-- Check size of long double - done
+-- Check size of long double
+-- Check size of long double - done
+-- Check size of void*
+-- Check size of void* - done
+-- Looking for alloca.h
+-- Looking for alloca.h - found
+-- Looking for alloca
+-- Looking for alloca - not found
+-- Looking for memcpy
+-- Looking for memcpy - found
+-- Performing Test HAVE_SYNC_BOOL_COMPARE_AND_SWAP_4
+-- Performing Test HAVE_SYNC_BOOL_COMPARE_AND_SWAP_4 - Success
+-- Performing Test HAVE_SYNC_BOOL_COMPARE_AND_SWAP_8
+-- Performing Test HAVE_SYNC_BOOL_COMPARE_AND_SWAP_8 - Success
+-- Performing Test HAVE_AS_X86_AES
+-- Performing Test HAVE_AS_X86_AES - Success
+-- Libgo: creating stdlib package targets
+-- Libgo: generating check targets
+-- libgo configuration complete.
+-- starting gotools configuration.
+-- gotools: generating check targets
+-- gotools configuration complete.
+-- Registering Bye as a pass plugin (static build: OFF)
+-- Failed to find LLVM FileCheck
+-- Version: 0.0.0
+-- Performing Test HAVE_CXX_FLAG_STD_CXX11
+-- Performing Test HAVE_CXX_FLAG_STD_CXX11 - Success
+-- Performing Test HAVE_CXX_FLAG_WALL
+-- Performing Test HAVE_CXX_FLAG_WALL - Success
+-- Performing Test HAVE_CXX_FLAG_WEXTRA
+-- Performing Test HAVE_CXX_FLAG_WEXTRA - Success
+-- Performing Test HAVE_CXX_FLAG_WSHADOW
+-- Performing Test HAVE_CXX_FLAG_WSHADOW - Success
+-- Performing Test HAVE_CXX_FLAG_PEDANTIC
+-- Performing Test HAVE_CXX_FLAG_PEDANTIC - Success
+-- Performing Test HAVE_CXX_FLAG_PEDANTIC_ERRORS
+-- Performing Test HAVE_CXX_FLAG_PEDANTIC_ERRORS - Success
+-- Performing Test HAVE_CXX_FLAG_WSHORTEN_64_TO_32
+-- Performing Test HAVE_CXX_FLAG_WSHORTEN_64_TO_32 - Failed
+-- Performing Test HAVE_CXX_FLAG_WFLOAT_EQUAL
+-- Performing Test HAVE_CXX_FLAG_WFLOAT_EQUAL - Success
+-- Performing Test HAVE_CXX_FLAG_FSTRICT_ALIASING
+-- Performing Test HAVE_CXX_FLAG_FSTRICT_ALIASING - Success
+-- Performing Test HAVE_CXX_FLAG_FNO_EXCEPTIONS
+-- Performing Test HAVE_CXX_FLAG_FNO_EXCEPTIONS - Success
+-- Performing Test HAVE_CXX_FLAG_WSTRICT_ALIASING
+-- Performing Test HAVE_CXX_FLAG_WSTRICT_ALIASING - Success
+-- Performing Test HAVE_CXX_FLAG_WD654
+-- Performing Test HAVE_CXX_FLAG_WD654 - Failed
+-- Performing Test HAVE_CXX_FLAG_WTHREAD_SAFETY
+-- Performing Test HAVE_CXX_FLAG_WTHREAD_SAFETY - Failed
+-- Performing Test HAVE_CXX_FLAG_COVERAGE
+-- Performing Test HAVE_CXX_FLAG_COVERAGE - Success
+-- Performing Test HAVE_GNU_POSIX_REGEX
+-- Performing Test HAVE_GNU_POSIX_REGEX
+-- Performing Test HAVE_GNU_POSIX_REGEX -- failed to compile
+-- Performing Test HAVE_POSIX_REGEX
+-- Performing Test HAVE_POSIX_REGEX
+-- Performing Test HAVE_POSIX_REGEX -- success
+-- Performing Test HAVE_STEADY_CLOCK
+-- Performing Test HAVE_STEADY_CLOCK
+-- Performing Test HAVE_STEADY_CLOCK -- success
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /media/ubuntu/RESERVE0/workspace/build.rel
+

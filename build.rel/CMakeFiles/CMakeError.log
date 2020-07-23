@@ -1,0 +1,622 @@
+Determining if the include file malloc/malloc.h exists failed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_94e5f && [1/2] Building C object CMakeFiles/cmTC_94e5f.dir/CheckIncludeFile.c.o
+FAILED: CMakeFiles/cmTC_94e5f.dir/CheckIncludeFile.c.o 
+/usr/bin/cc    -o CMakeFiles/cmTC_94e5f.dir/CheckIncludeFile.c.o   -c CheckIncludeFile.c
+CheckIncludeFile.c:1:10: fatal error: malloc/malloc.h: No such file or directory
+    1 | #include <malloc/malloc.h>
+      |          ^~~~~~~~~~~~~~~~~
+compilation terminated.
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the include file valgrind/valgrind.h exists failed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_37ae6 && [1/2] Building C object CMakeFiles/cmTC_37ae6.dir/CheckIncludeFile.c.o
+FAILED: CMakeFiles/cmTC_37ae6.dir/CheckIncludeFile.c.o 
+/usr/bin/cc    -o CMakeFiles/cmTC_37ae6.dir/CheckIncludeFile.c.o   -c CheckIncludeFile.c
+CheckIncludeFile.c:1:10: fatal error: valgrind/valgrind.h: No such file or directory
+    1 | #include <valgrind/valgrind.h>
+      |          ^~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the include file mach/mach.h exists failed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_286da && [1/2] Building C object CMakeFiles/cmTC_286da.dir/CheckIncludeFile.c.o
+FAILED: CMakeFiles/cmTC_286da.dir/CheckIncludeFile.c.o 
+/usr/bin/cc    -o CMakeFiles/cmTC_286da.dir/CheckIncludeFile.c.o   -c CheckIncludeFile.c
+CheckIncludeFile.c:1:10: fatal error: mach/mach.h: No such file or directory
+    1 | #include <mach/mach.h>
+      |          ^~~~~~~~~~~~~
+compilation terminated.
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the include file histedit.h exists failed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_cbd5e && [1/2] Building C object CMakeFiles/cmTC_cbd5e.dir/CheckIncludeFile.c.o
+FAILED: CMakeFiles/cmTC_cbd5e.dir/CheckIncludeFile.c.o 
+/usr/bin/cc    -o CMakeFiles/cmTC_cbd5e.dir/CheckIncludeFile.c.o   -c CheckIncludeFile.c
+CheckIncludeFile.c:1:10: fatal error: histedit.h: No such file or directory
+    1 | #include <histedit.h>
+      |          ^~~~~~~~~~~~
+compilation terminated.
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the include file CrashReporterClient.h exists failed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_d9239 && [1/2] Building C object CMakeFiles/cmTC_d9239.dir/CheckIncludeFile.c.o
+FAILED: CMakeFiles/cmTC_d9239.dir/CheckIncludeFile.c.o 
+/usr/bin/cc    -o CMakeFiles/cmTC_d9239.dir/CheckIncludeFile.c.o   -c CheckIncludeFile.c
+CheckIncludeFile.c:1:10: fatal error: CrashReporterClient.h: No such file or directory
+    1 | #include <CrashReporterClient.h>
+      |          ^~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the function pfm_initialize exists in the pfm failed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_83164 && [1/2] Building C object CMakeFiles/cmTC_83164.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_83164
+FAILED: cmTC_83164 
+: && /usr/bin/cc -DCHECK_FUNCTION_EXISTS=pfm_initialize   CMakeFiles/cmTC_83164.dir/CheckFunctionExists.c.o  -o cmTC_83164  -lpfm  -lm && :
+/usr/bin/ld: cannot find -lpfm
+collect2: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
+
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_a5c44 && [1/2] Building C object CMakeFiles/cmTC_a5c44.dir/src.c.o
+[2/2] Linking C executable cmTC_a5c44
+FAILED: cmTC_a5c44 
+: && /usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   CMakeFiles/cmTC_a5c44.dir/src.c.o  -o cmTC_a5c44  -lm && :
+/usr/bin/ld: CMakeFiles/cmTC_a5c44.dir/src.c.o: in function `main':
+src.c:(.text+0x46): undefined reference to `pthread_create'
+/usr/bin/ld: src.c:(.text+0x52): undefined reference to `pthread_detach'
+/usr/bin/ld: src.c:(.text+0x63): undefined reference to `pthread_join'
+collect2: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+#include <pthread.h>
+
+void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_bbf2a && [1/2] Building C object CMakeFiles/cmTC_bbf2a.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_bbf2a
+FAILED: cmTC_bbf2a 
+: && /usr/bin/cc -DCHECK_FUNCTION_EXISTS=pthread_create   CMakeFiles/cmTC_bbf2a.dir/CheckFunctionExists.c.o  -o cmTC_bbf2a  -lpthreads  -lm && :
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the function setupterm exists in the terminfo failed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_4e28d && [1/2] Building C object CMakeFiles/cmTC_4e28d.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_4e28d
+FAILED: cmTC_4e28d 
+: && /usr/bin/cc -DCHECK_FUNCTION_EXISTS=setupterm   CMakeFiles/cmTC_4e28d.dir/CheckFunctionExists.c.o  -o cmTC_4e28d  -lterminfo  -lm && :
+/usr/bin/ld: cannot find -lterminfo
+collect2: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the function xar_open exists in the xar failed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_41053 && [1/2] Building C object CMakeFiles/cmTC_41053.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_41053
+FAILED: cmTC_41053 
+: && /usr/bin/cc -DCHECK_FUNCTION_EXISTS=xar_open   CMakeFiles/cmTC_41053.dir/CheckFunctionExists.c.o  -o cmTC_41053  -lxar  -lm && :
+/usr/bin/ld: cannot find -lxar
+collect2: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the arc4random exist failed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_a61ca && [1/2] Building C object CMakeFiles/cmTC_a61ca.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_a61ca.dir/CheckSymbolExists.c.o 
+/usr/bin/cc    -o CMakeFiles/cmTC_a61ca.dir/CheckSymbolExists.c.o   -c CheckSymbolExists.c
+CheckSymbolExists.c: In function ‘main’:
+CheckSymbolExists.c:8:19: error: ‘arc4random’ undeclared (first use in this function); did you mean ‘srandom’?
+    8 |   return ((int*)(&arc4random))[argc];
+      |                   ^~~~~~~~~~
+      |                   srandom
+CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+ninja: build stopped: subcommand failed.
+
+
+File /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef arc4random
+  return ((int*)(&arc4random))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C SOURCE FILE Test C_SUPPORTS_WERROR_UNGUARDED_AVAILABILITY_NEW failed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_23c79 && [1/2] Building C object CMakeFiles/cmTC_23c79.dir/src.c.o
+FAILED: CMakeFiles/cmTC_23c79.dir/src.c.o 
+/usr/bin/cc   -DC_SUPPORTS_WERROR_UNGUARDED_AVAILABILITY_NEW   -Werror=unguarded-availability-new -o CMakeFiles/cmTC_23c79.dir/src.c.o   -c src.c
+cc1: error: '-Werror=unguarded-availability-new': no option -Wunguarded-availability-new
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Determining if the mallctl exist failed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_67afa && [1/2] Building C object CMakeFiles/cmTC_67afa.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_67afa.dir/CheckSymbolExists.c.o 
+/usr/bin/cc    -o CMakeFiles/cmTC_67afa.dir/CheckSymbolExists.c.o   -c CheckSymbolExists.c
+CheckSymbolExists.c:2:10: fatal error: malloc_np.h: No such file or directory
+    2 | #include <malloc_np.h>
+      |          ^~~~~~~~~~~~~
+compilation terminated.
+ninja: build stopped: subcommand failed.
+
+
+File /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <malloc_np.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef mallctl
+  return ((int*)(&mallctl))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the malloc_zone_statistics exist failed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_27830 && [1/2] Building C object CMakeFiles/cmTC_27830.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_27830.dir/CheckSymbolExists.c.o 
+/usr/bin/cc    -o CMakeFiles/cmTC_27830.dir/CheckSymbolExists.c.o   -c CheckSymbolExists.c
+CheckSymbolExists.c:2:10: fatal error: malloc/malloc.h: No such file or directory
+    2 | #include <malloc/malloc.h>
+      |          ^~~~~~~~~~~~~~~~~
+compilation terminated.
+ninja: build stopped: subcommand failed.
+
+
+File /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <malloc/malloc.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef malloc_zone_statistics
+  return ((int*)(&malloc_zone_statistics))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strerror_s exist failed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_85767 && [1/2] Building C object CMakeFiles/cmTC_85767.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_85767.dir/CheckSymbolExists.c.o 
+/usr/bin/cc    -o CMakeFiles/cmTC_85767.dir/CheckSymbolExists.c.o   -c CheckSymbolExists.c
+CheckSymbolExists.c: In function ‘main’:
+CheckSymbolExists.c:8:19: error: ‘strerror_s’ undeclared (first use in this function); did you mean ‘strerror_l’?
+    8 |   return ((int*)(&strerror_s))[argc];
+      |                   ^~~~~~~~~~
+      |                   strerror_l
+CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+ninja: build stopped: subcommand failed.
+
+
+File /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strerror_s
+  return ((int*)(&strerror_s))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the dladdr exist failed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_f3e72 && [1/2] Building C object CMakeFiles/cmTC_f3e72.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_f3e72.dir/CheckSymbolExists.c.o 
+/usr/bin/cc    -o CMakeFiles/cmTC_f3e72.dir/CheckSymbolExists.c.o   -c CheckSymbolExists.c
+CheckSymbolExists.c: In function ‘main’:
+CheckSymbolExists.c:8:19: error: ‘dladdr’ undeclared (first use in this function)
+    8 |   return ((int*)(&dladdr))[argc];
+      |                   ^~~~~~
+CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+ninja: build stopped: subcommand failed.
+
+
+File /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <dlfcn.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef dladdr
+  return ((int*)(&dladdr))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C SOURCE FILE Test HAVE_STRUCT_STAT_ST_MTIMESPEC_TV_NSEC failed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_c6dd8 && [1/2] Building C object CMakeFiles/cmTC_c6dd8.dir/src.c.o
+FAILED: CMakeFiles/cmTC_c6dd8.dir/src.c.o 
+/usr/bin/cc   -DHAVE_STRUCT_STAT_ST_MTIMESPEC_TV_NSEC -o CMakeFiles/cmTC_c6dd8.dir/src.c.o   -c src.c
+src.c: In function ‘main’:
+src.c:7:34: error: ‘struct stat’ has no member named ‘st_mtimespec’
+    7 |   (void)sizeof(((struct stat *)0)->st_mtimespec.tv_nsec);
+      |                                  ^~
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+
+#include <sys/types.h>
+#include <sys/stat.h>
+
+int main()
+{
+  (void)sizeof(((struct stat *)0)->st_mtimespec.tv_nsec);
+  return 0;
+}
+
+Performing C++ SOURCE FILE Test SUPPORTS_GNU_ZERO_VARIADIC_MACRO_ARGUMENTS_FLAG failed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_2d727 && [1/2] Building CXX object CMakeFiles/cmTC_2d727.dir/src.cxx.o
+FAILED: CMakeFiles/cmTC_2d727.dir/src.cxx.o 
+/usr/bin/c++    -DSUPPORTS_GNU_ZERO_VARIADIC_MACRO_ARGUMENTS_FLAG   -Wgnu-zero-variadic-macro-arguments -o CMakeFiles/cmTC_2d727.dir/src.cxx.o -c src.cxx
+c++: error: unrecognized command line option '-Wgnu-zero-variadic-macro-arguments'
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_WERROR_UNGUARDED_AVAILABILITY_NEW failed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_c563a && [1/2] Building CXX object CMakeFiles/cmTC_c563a.dir/src.cxx.o
+FAILED: CMakeFiles/cmTC_c563a.dir/src.cxx.o 
+/usr/bin/c++    -fPIC -fvisibility-inlines-hidden -Werror=date-time -DCXX_SUPPORTS_WERROR_UNGUARDED_AVAILABILITY_NEW   -Werror -Werror=unguarded-availability-new -o CMakeFiles/cmTC_c563a.dir/src.cxx.o -c src.cxx
+cc1plus: error: '-Werror=unguarded-availability-new': no option -Wunguarded-availability-new
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_SUPPORTS_COVERED_SWITCH_DEFAULT_FLAG failed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_1325a && [1/2] Building C object CMakeFiles/cmTC_1325a.dir/src.c.o
+FAILED: CMakeFiles/cmTC_1325a.dir/src.c.o 
+/usr/bin/cc   -fPIC -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -DC_SUPPORTS_COVERED_SWITCH_DEFAULT_FLAG   -Werror -Wcovered-switch-default -o CMakeFiles/cmTC_1325a.dir/src.c.o   -c src.c
+cc: error: unrecognized command line option '-Wcovered-switch-default'; did you mean '-Wno-switch-default'?
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_COVERED_SWITCH_DEFAULT_FLAG failed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_0e30f && [1/2] Building CXX object CMakeFiles/cmTC_0e30f.dir/src.cxx.o
+FAILED: CMakeFiles/cmTC_0e30f.dir/src.cxx.o 
+/usr/bin/c++    -fPIC -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -DCXX_SUPPORTS_COVERED_SWITCH_DEFAULT_FLAG   -Werror -Wcovered-switch-default -o CMakeFiles/cmTC_0e30f.dir/src.cxx.o -c src.cxx
+c++: error: unrecognized command line option '-Wcovered-switch-default'; did you mean '-Wno-switch-default'?
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_SUPPORTS_DELETE_NON_VIRTUAL_DTOR_FLAG failed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_ddbd4 && [1/2] Building C object CMakeFiles/cmTC_ddbd4.dir/src.c.o
+FAILED: CMakeFiles/cmTC_ddbd4.dir/src.c.o 
+/usr/bin/cc   -fPIC -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -DC_SUPPORTS_DELETE_NON_VIRTUAL_DTOR_FLAG   -Werror -Wdelete-non-virtual-dtor -o CMakeFiles/cmTC_ddbd4.dir/src.c.o   -c src.c
+cc1: error: command line option '-Wdelete-non-virtual-dtor' is valid for C++/ObjC++ but not for C [-Werror]
+cc1: all warnings being treated as errors
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_WCOMMENT_ALLOWS_LINE_WRAP failed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_665d8 && [1/2] Building C object CMakeFiles/cmTC_665d8.dir/src.c.o
+FAILED: CMakeFiles/cmTC_665d8.dir/src.c.o 
+/usr/bin/cc -D_GNU_SOURCE  -fPIC -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -DC_WCOMMENT_ALLOWS_LINE_WRAP  -Werror -Wcomment -o CMakeFiles/cmTC_665d8.dir/src.c.o   -c src.c
+src.c:1:1: error: multi-line comment [-Werror=comment]
+    1 | // \
+      | ^
+cc1: all warnings being treated as errors
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+// \
+//
+int main() {return 0;}
+Performing C SOURCE FILE Test C_SUPPORTS_STRING_CONVERSION_FLAG failed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_b6b65 && [1/2] Building C object CMakeFiles/cmTC_b6b65.dir/src.c.o
+FAILED: CMakeFiles/cmTC_b6b65.dir/src.c.o 
+/usr/bin/cc   -fPIC -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-comment -DC_SUPPORTS_STRING_CONVERSION_FLAG   -Werror -Wstring-conversion -o CMakeFiles/cmTC_b6b65.dir/src.c.o   -c src.c
+cc: error: unrecognized command line option '-Wstring-conversion'; did you mean '-Wsign-conversion'?
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_STRING_CONVERSION_FLAG failed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_6c5f8 && [1/2] Building CXX object CMakeFiles/cmTC_6c5f8.dir/src.cxx.o
+FAILED: CMakeFiles/cmTC_6c5f8.dir/src.cxx.o 
+/usr/bin/c++    -fPIC -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-redundant-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wno-comment -DCXX_SUPPORTS_STRING_CONVERSION_FLAG   -Werror -Wstring-conversion -o CMakeFiles/cmTC_6c5f8.dir/src.cxx.o -c src.cxx
+c++: error: unrecognized command line option '-Wstring-conversion'; did you mean '-Wsign-conversion'?
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test LINKER_SUPPORTS_COLOR_DIAGNOSTICS failed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_59792 && [1/2] Building CXX object CMakeFiles/cmTC_59792.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_59792
+FAILED: cmTC_59792 
+: && /usr/bin/c++  -fPIC -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-redundant-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wno-comment -fdiagnostics-color -DLINKER_SUPPORTS_COLOR_DIAGNOSTICS  -fuse-ld=gold -Wl,--color-diagnostics CMakeFiles/cmTC_59792.dir/src.cxx.o  -o cmTC_59792  -lm && :
+/usr/bin/ld.gold: --color-diagnostics: unknown option
+/usr/bin/ld.gold: use the --help option for usage information
+collect2: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main() { return 0; }
+Determining if the os_signpost_interval_begin exist failed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_8d790 && [1/2] Building C object CMakeFiles/cmTC_8d790.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_8d790.dir/CheckSymbolExists.c.o 
+/usr/bin/cc -D_GNU_SOURCE  -fPIC -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-comment -fdiagnostics-color -ffunction-sections -fdata-sections -o CMakeFiles/cmTC_8d790.dir/CheckSymbolExists.c.o   -c CheckSymbolExists.c
+CheckSymbolExists.c:2:10: fatal error: os/signpost.h: No such file or directory
+    2 | #include <os/signpost.h>
+      |          ^~~~~~~~~~~~~~~
+compilation terminated.
+ninja: build stopped: subcommand failed.
+
+
+File /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <os/signpost.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef os_signpost_interval_begin
+  return ((int*)(&os_signpost_interval_begin))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C SOURCE FILE Test SPLIT_STACK_FUNCTIONAL failed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_74b46 && [1/2] Building C object CMakeFiles/cmTC_74b46.dir/src.c.o
+[2/2] Linking C executable cmTC_74b46
+FAILED: cmTC_74b46 
+: && /usr/bin/cc -fPIC -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-comment -fdiagnostics-color -ffunction-sections -fdata-sections -DSPLIT_STACK_FUNCTIONAL -fuse-ld=gold -fsplit-stack  -fuse-ld=gold -Wl,-allow-shlib-undefined CMakeFiles/cmTC_74b46.dir/src.c.o  -o cmTC_74b46  -lm && :
+/usr/bin/ld.gold: error: CMakeFiles/cmTC_74b46.dir/src.c.o: failed to match split-stack sequence at section 5 offset 0
+collect2: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+#include<stdio.h>
+int main(){printf("hello");
+return 0;}
+Determining if the getexecname exist failed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_817a7 && [1/2] Building C object CMakeFiles/cmTC_817a7.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_817a7.dir/CheckSymbolExists.c.o 
+/usr/bin/cc -D_GNU_SOURCE  -fPIC -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-comment -fdiagnostics-color -ffunction-sections -fdata-sections -fuse-ld=gold -fsplit-stack -fcf-protection=none -o CMakeFiles/cmTC_817a7.dir/CheckSymbolExists.c.o   -c CheckSymbolExists.c
+CheckSymbolExists.c: In function ‘main’:
+CheckSymbolExists.c:8:19: error: ‘getexecname’ undeclared (first use in this function)
+    8 |   return ((int*)(&getexecname))[argc];
+      |                   ^~~~~~~~~~~
+CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+CheckSymbolExists.c:4:14: warning: parameter ‘argc’ set but not used [-Wunused-but-set-parameter]
+    4 | int main(int argc, char** argv)
+      |          ~~~~^~~~
+ninja: build stopped: subcommand failed.
+
+
+File /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getexecname
+  return ((int*)(&getexecname))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the include file linux/ether.h exists failed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_0162a && [1/2] Building C object CMakeFiles/cmTC_0162a.dir/CheckIncludeFile.c.o
+FAILED: CMakeFiles/cmTC_0162a.dir/CheckIncludeFile.c.o 
+/usr/bin/cc -D_GNU_SOURCE -D_LARGEFILE64_SOURCE=1  -fPIC -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-comment -fdiagnostics-color -ffunction-sections -fdata-sections -fuse-ld=gold -fsplit-stack -fcf-protection=none -o CMakeFiles/cmTC_0162a.dir/CheckIncludeFile.c.o   -c CheckIncludeFile.c
+CheckIncludeFile.c:1:10: fatal error: linux/ether.h: No such file or directory
+    1 | #include <linux/ether.h>
+      |          ^~~~~~~~~~~~~~~
+compilation terminated.
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the include file netinet/ip_mroute.h exists failed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_16a01 && [1/2] Building C object CMakeFiles/cmTC_16a01.dir/CheckIncludeFile.c.o
+FAILED: CMakeFiles/cmTC_16a01.dir/CheckIncludeFile.c.o 
+/usr/bin/cc -D_GNU_SOURCE -D_LARGEFILE64_SOURCE=1  -fPIC -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-comment -fdiagnostics-color -ffunction-sections -fdata-sections -fuse-ld=gold -fsplit-stack -fcf-protection=none -o CMakeFiles/cmTC_16a01.dir/CheckIncludeFile.c.o   -c CheckIncludeFile.c
+CheckIncludeFile.c:1:10: fatal error: netinet/ip_mroute.h: No such file or directory
+    1 | #include <netinet/ip_mroute.h>
+      |          ^~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the include file port.h exists failed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_d32f4 && [1/2] Building C object CMakeFiles/cmTC_d32f4.dir/CheckIncludeFile.c.o
+FAILED: CMakeFiles/cmTC_d32f4.dir/CheckIncludeFile.c.o 
+/usr/bin/cc -D_GNU_SOURCE -D_LARGEFILE64_SOURCE=1  -fPIC -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-comment -fdiagnostics-color -ffunction-sections -fdata-sections -fuse-ld=gold -fsplit-stack -fcf-protection=none -o CMakeFiles/cmTC_d32f4.dir/CheckIncludeFile.c.o   -c CheckIncludeFile.c
+CheckIncludeFile.c:1:10: fatal error: port.h: No such file or directory
+    1 | #include <port.h>
+      |          ^~~~~~~~
+compilation terminated.
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the function alloca exists failed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_ee998 && [1/2] Building C object CMakeFiles/cmTC_ee998.dir/CheckFunctionExists.c.o
+<command-line>: warning: conflicting types for built-in function ‘alloca’; expected ‘void *(long unsigned int)’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.16/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+[2/2] Linking C executable cmTC_ee998
+FAILED: cmTC_ee998 
+: && /usr/bin/cc -fPIC -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-comment -fdiagnostics-color -ffunction-sections -fdata-sections -DCHECK_FUNCTION_EXISTS=alloca -fuse-ld=gold -fsplit-stack -fcf-protection=none  -fuse-ld=gold -Wl,-allow-shlib-undefined CMakeFiles/cmTC_ee998.dir/CheckFunctionExists.c.o  -o cmTC_ee998  -lm && :
+CMakeFiles/cmTC_ee998.dir/CheckFunctionExists.c.o:CheckFunctionExists.c:function main: error: undefined reference to 'alloca'
+collect2: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
+
+
+
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WSHORTEN_64_TO_32 failed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_0952e && [1/2] Building CXX object CMakeFiles/cmTC_0952e.dir/src.cxx.o
+FAILED: CMakeFiles/cmTC_0952e.dir/src.cxx.o 
+/usr/bin/c++    -fPIC -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-redundant-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wno-comment -fdiagnostics-color -ffunction-sections -fdata-sections  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors -DHAVE_CXX_FLAG_WSHORTEN_64_TO_32  -Wshorten-64-to-32   -Wshorten-64-to-32 -o CMakeFiles/cmTC_0952e.dir/src.cxx.o -c src.cxx
+c++: error: unrecognized command line option '-Wshorten-64-to-32'
+c++: error: unrecognized command line option '-Wshorten-64-to-32'
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WD654 failed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_86751 && [1/2] Building CXX object CMakeFiles/cmTC_86751.dir/src.cxx.o
+FAILED: CMakeFiles/cmTC_86751.dir/src.cxx.o 
+/usr/bin/c++    -fPIC -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-redundant-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wno-comment -fdiagnostics-color -ffunction-sections -fdata-sections  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wfloat-equal  -fstrict-aliasing  -fno-exceptions  -Wstrict-aliasing -DHAVE_CXX_FLAG_WD654  -wd654   -wd654 -o CMakeFiles/cmTC_86751.dir/src.cxx.o -c src.cxx
+c++: error: unrecognized command line option '-wd654'
+c++: error: unrecognized command line option '-wd654'
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WTHREAD_SAFETY failed with the following output:
+Change Dir: /media/ubuntu/RESERVE0/workspace/build.rel/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_75bf6 && [1/2] Building CXX object CMakeFiles/cmTC_75bf6.dir/src.cxx.o
+FAILED: CMakeFiles/cmTC_75bf6.dir/src.cxx.o 
+/usr/bin/c++    -fPIC -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-redundant-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wno-comment -fdiagnostics-color -ffunction-sections -fdata-sections  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wfloat-equal  -fstrict-aliasing  -fno-exceptions  -Wstrict-aliasing -DHAVE_CXX_FLAG_WTHREAD_SAFETY  -Wthread-safety   -Wthread-safety -o CMakeFiles/cmTC_75bf6.dir/src.cxx.o -c src.cxx
+c++: error: unrecognized command line option '-Wthread-safety'
+c++: error: unrecognized command line option '-Wthread-safety'
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main() { return 0; }

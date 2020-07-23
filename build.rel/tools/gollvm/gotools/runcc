@@ -1,0 +1,2 @@
+#!/bin/sh
+exec /usr/bin/cc  -I /media/ubuntu/RESERVE0/workspace/build.rel/tools/gollvm/libgo -L /media/ubuntu/RESERVE0/workspace/build.rel/tools/gollvm/libgo "$@"
